@@ -1,0 +1,33 @@
+{
+    "AS_FlexContainer_a47470e42f944507afb18dbb0e330e08": {
+        "id": "AS_FlexContainer_a47470e42f944507afb18dbb0e330e08",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSplash",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a9ef290a40544927abc67607e32ae949"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__b276a14a926d4e22b79835539e16608a",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "frmSplash",
+            "widgetId": "flxConsent",
+            "propertyName": "isVisible",
+            "propertyValue": "false",
+            "itemKUID": "a9ef290a40544927abc67607e32ae949",
+            "widgetKUID": "e830cd31cde84871afca63567cf83d39",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "widgetPath": "this.view.flxConsent"
+        }]
+    }
+}

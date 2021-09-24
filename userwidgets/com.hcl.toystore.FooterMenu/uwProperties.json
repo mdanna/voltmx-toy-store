@@ -1,0 +1,87 @@
+{
+    "classname": "FooterMenu",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e45bacb3a4384ac59c004522c08afe18",
+                    "paramList": [],
+                    "propertyKey": "selectItem",
+                    "pw": {
+                        "displayName": "selectItem",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "jcdc80ef2641425a89f7d44986cefe6d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b358ebbcba284287a39e98918d7de4d5",
+                    "paramList": [
+                        {
+                            "name": "item"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onItemSelection",
+                    "pw": {
+                        "displayName": "onItemSelection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "jcdc80ef2641425a89f7d44986cefe6d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "<none>",
+                    "group": "General",
+                    "kuid": "c4d6364d0d4a452c9f49adf56918eb9c",
+                    "originalPropertyKey": "itemSelected",
+                    "propertyIndex": 1,
+                    "propertyKey": "itemSelected",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Itrem Selected",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "jcdc80ef2641425a89f7d44986cefe6d",
+                    "type": "list selector",
+                    "value": [
+                        "<none>",
+                        "home",
+                        "scanner",
+                        "search",
+                        "location",
+                        "cart"
+                    ]
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.toystore",
+    "version": "1.0.0"
+}

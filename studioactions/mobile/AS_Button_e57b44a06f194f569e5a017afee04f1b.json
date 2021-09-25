@@ -14,20 +14,15 @@
         },
         "language": "js",
         "actions": [{
-            "id": "SET_FORM_WIDGET_PROPERTY_Untitled__c5f1d4e1a2f444728034b8dd3b15eafe",
-            "type": "SET_WIDGET_PROPERTY",
-            "itemType": "FORM",
-            "itemId": "frmSplash",
-            "widgetId": "flxConsent",
-            "propertyName": "isVisible",
-            "propertyValue": "true",
-            "itemKUID": "a9ef290a40544927abc67607e32ae949",
-            "widgetKUID": "e830cd31cde84871afca63567cf83d39",
-            "isSkinProperty": false,
-            "wType": "FlexContainer",
-            "forkedPlatform": "all",
-            "parentId": null,
-            "widgetPath": "this.view.flxConsent"
+            "id": "NAVIGATE_TO_FORM__i880e8a91de74d46808a061179554cda",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmHome",
+            "formKUID": "g8ebd9e8ec3f4598983c98bd33bb7e7b",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
         }]
     }
 }

@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
@@ -16,16 +16,16 @@
         1
     ],
     "_padding_": [
-        0,
+        10,
         0,
         0,
         0
     ],
-    "_skin_": "secc904f47514287a31645b15f753541",
-    "_text_": "Title",
+    "_skin_": "s4be581e8c3d410fa3a94c8ac61b25ed",
+    "_text_": "Most Popular",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "30dp"
     },
     "_width_": {
         "type": "string",
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblTitle",
+    "id": "lblPopular",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,11 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i37cd8517df44227a1fd7436ecc0c6ff",
+    "kuid": "ie4c084b43ec42659a26a0a019a0d8c9",
     "name": "kony.ui.Label",
-    "parent": "flxTitle",
-    "pf": "userwidgetmodel",
+    "paddinginpixel": false,
+    "parent": "flxPopular",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

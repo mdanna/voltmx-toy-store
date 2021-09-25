@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "90%"
+        "value": "200dp"
     },
     "_left_": {
         "type": "string",
@@ -22,52 +22,39 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s95d352383274516a9b5acdf25b2b423",
+    "_skin_": "s02e7949704441acba6e98f1b1e41c57",
     "_top_": {
         "type": "string",
-        "value": "10%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "280dp"
     },
     "allboxes": [],
-    "allowhorizontalbounce": false,
-    "allowverticalbounce": true,
-    "bounces": false,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxHomeHero",
-        "flxNewProductsContainer",
-        "flxPopular",
-        "flxFavorites",
-        "flxCategories",
-        "flxSpacer"
+        "cmpPopular3",
+        "cmpPopular4"
     ],
     "clipbounds": true,
     "containerweight": 100,
-    "decelerat": false,
-    "dragg": false,
     "enablescrolling": true,
-    "horizontalscrollindicator": true,
-    "id": "flxContent",
+    "id": "flxColumn2",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "gb5ee2bf170c462785e1e436564fa306",
+    "kuid": "h386efd9e9a440d9bedf55c6ad122f39",
     "layouttype": 4,
-    "name": "kony.ui.FlexScrollContainer",
-    "pagingenabled": false,
-    "parent": "frmHome",
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxPopularList",
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "track": false,
-    "verticalscrollindicator": false,
-    "wType": "FlexScrollContainer",
+    "wType": "FlexContainer",
     "widgetalignment": 1
 }

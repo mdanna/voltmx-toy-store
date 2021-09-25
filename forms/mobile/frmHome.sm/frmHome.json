@@ -36,7 +36,7 @@
     "canUpdateUI": true,
     "children": [
         "cmpDefaultHeader",
-        "flxScroll",
+        "flxContent",
         "cmpFooterMenu"
     ],
     "containerweight": 100,
@@ -50,7 +50,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone11",
+    "device": "iPhone8",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmHome",
@@ -105,7 +105,7 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "iphone",
-    "prevDevice": "iPhoneSE",
+    "prevDevice": "iPhone11",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

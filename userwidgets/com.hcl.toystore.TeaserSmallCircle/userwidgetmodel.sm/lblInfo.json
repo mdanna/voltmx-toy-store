@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "20dp"
     },
     "_left_": {
         "type": "string",
@@ -21,8 +21,8 @@
         0,
         0
     ],
-    "_skin_": "secc904f47514287a31645b15f753541",
-    "_text_": "Title",
+    "_skin_": "scefb2b9767244bb9348223a9304b7fb",
+    "_text_": "All 621",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -40,8 +40,8 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "lblTitle",
+    "contentalignment": 5,
+    "id": "lblInfo",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,9 +55,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i37cd8517df44227a1fd7436ecc0c6ff",
+    "kuid": "c6e4ee463482472ea9b9a9df70560a5c",
     "name": "kony.ui.Label",
-    "parent": "flxTitle",
+    "parent": "TeaserSmallCircle",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "secc904f47514287a31645b15f753541",
-    "_text_": "Title",
+    "_skin_": "scefb2b9767244bb9348223a9304b7fb",
+    "_text_": "",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblTitle",
+    "id": "lblInfo",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,9 +55,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i37cd8517df44227a1fd7436ecc0c6ff",
+    "kuid": "d5a7fe226b894047b77920c384866ae5",
     "name": "kony.ui.Label",
-    "parent": "flxTitle",
+    "parent": "flxInfo",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

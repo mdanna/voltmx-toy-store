@@ -35,8 +35,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblStarSelected2",
-        "lblStarUnselected2"
+        "lblStarUnselected2",
+        "lblStarSelected2"
     ],
     "clipbounds": true,
     "containerweight": 100,

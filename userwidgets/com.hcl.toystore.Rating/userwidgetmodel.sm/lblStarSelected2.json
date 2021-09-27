@@ -54,7 +54,7 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "b5b8f892979c4235844b4ddf9136d659",
     "name": "kony.ui.Label",
     "parent": "flxStar2",

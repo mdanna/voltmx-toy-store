@@ -43,7 +43,7 @@
     "kuid": "f2d9d4e84997442a9bf4304e67848461",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxMain",
+    "parent": "frmProduct",
     "pf": "frmProduct",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

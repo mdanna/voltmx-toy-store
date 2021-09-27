@@ -1,12 +1,14 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
+    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "50%"
+        "value": "20dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "8%"
     },
     "_margin_": [
         0,
@@ -14,7 +16,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -29,32 +31,30 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "42%"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "imgProduct",
-        "flxControls"
-    ],
-    "clipbounds": true,
-    "containerweight": 100,
-    "enablescrolling": true,
-    "id": "flxImage",
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 0,
+    "data": {
+        "rating": "4.2"
+    },
+    "id": "cmpRating",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e94f6a004c1a491c9f330867e9e75adc",
-    "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "flxMain",
+    "kuid": "b065e9fab95846309e8560a9ba45e43e",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxRating",
     "pf": "frmProduct",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1
+    "sourceUserWidget": "a37f522a7ef0493496c16591114396e0",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
 }

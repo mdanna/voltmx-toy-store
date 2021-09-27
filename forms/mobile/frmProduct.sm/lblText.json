@@ -2,12 +2,12 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "8%"
     },
     "_margin_": [
         1,
@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "s044d62949e64d4fae5b336c43eaafda",
-    "_text_": "2",
+    "_skin_": "scefb2b9767244bb9348223a9304b7fb",
+    "_text_": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "84%"
     },
     "_wrapping_": 2,
     "android": {
@@ -40,8 +40,8 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 5,
-    "id": "lblStarSelected1",
+    "contentalignment": 4,
+    "id": "lblText",
     "info": null,
     "ipad": {
         "psp": {
@@ -54,14 +54,16 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": false,
-    "kuid": "bcf1698283ac4a2bb62d199115b293da",
+    "isvisible": true,
+    "kuid": "i9db8980a8324abc8467191981a2dcde",
+    "maxnumberoflines": 3,
     "name": "kony.ui.Label",
-    "parent": "flxStar1",
-    "pf": "userwidgetmodel",
+    "parent": "flxContent",
+    "pf": "frmProduct",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
+    "texttruncateposition": 3,
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

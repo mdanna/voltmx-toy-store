@@ -4,7 +4,7 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "27dp"
     },
     "_margin_": [
         0,
@@ -31,7 +31,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "80dp"
+        "value": "53dp"
     },
     "canUpdateUI": true,
     "centery": {

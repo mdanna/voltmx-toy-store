@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "37dp"
+        "value": "25dp"
     },
     "_left_": {
         "type": "string",
-        "value": "3dp"
+        "value": "1dp"
     },
     "_margin_": [
         0,
@@ -29,15 +29,11 @@
     },
     "_width_": {
         "type": "string",
-        "value": "37dp"
+        "value": "25dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
         "lblIconSelected",
         "lblIconUnselected"

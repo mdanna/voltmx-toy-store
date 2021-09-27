@@ -37,7 +37,8 @@
     "children": [
         "cmpDefaultHeader",
         "flxScroll",
-        "cmpFooterMenu"
+        "cmpFooterMenu",
+        "lblStoreID"
     ],
     "containerweight": 100,
     "controllerInfo": {

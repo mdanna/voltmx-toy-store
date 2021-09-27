@@ -21,7 +21,7 @@
     "isForked": false
   },
   "fontSizeInPx": false,
-  "font_color": "ffda21ff",
+  "font_color": "333333ff",
   "font_name": "iphoneSystem",
   "font_size": 150,
   "font_style": "normal",
@@ -32,7 +32,7 @@
     "isForked": false
   },
   "iphone": {
-    "font_name": "Showcase-Toys-Icons",
+    "font_name": "HelveticaNeue-Italic",
     "font_size": 150,
     "isForked": false
   },
@@ -42,7 +42,7 @@
     "font_size": 150,
     "isForked": false
   },
-  "kuid": "s044d62949e64d4fae5b336c43eaafda",
+  "kuid": "s92da5042b9f415c8e8fc218aeca6e92",
   "spaan": {
     "font_name": "Helvetica",
     "font_size": 150,

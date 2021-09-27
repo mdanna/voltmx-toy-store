@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5%"
     },
     "_margin_": [
         1,
@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "s044d62949e64d4fae5b336c43eaafda",
-    "_text_": "2",
+    "_skin_": "s04362eab3934407b496f7591fe3849f",
+    "_text_": "Add to Cart",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -40,8 +40,8 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 5,
-    "id": "lblStarSelected1",
+    "contentalignment": 4,
+    "id": "lbAddToCart",
     "info": null,
     "ipad": {
         "psp": {
@@ -54,11 +54,11 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": false,
-    "kuid": "bcf1698283ac4a2bb62d199115b293da",
+    "isvisible": true,
+    "kuid": "h6ae33592afa4290a3dcd124b39e21a5",
     "name": "kony.ui.Label",
-    "parent": "flxStar1",
-    "pf": "userwidgetmodel",
+    "parent": "flxAddToCart",
+    "pf": "frmProduct",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

@@ -19,10 +19,10 @@
         0,
         0,
         0,
-        0
+        5
     ],
-    "_skin_": "s044d62949e64d4fae5b336c43eaafda",
-    "_text_": "2",
+    "_skin_": "s1c78c6bfa944ce6a26e77c7cb5bae52",
+    "_text_": "1",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "lblStarSelected1",
+    "id": "lblCount",
     "info": null,
     "ipad": {
         "psp": {
@@ -54,10 +54,10 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": false,
-    "kuid": "bcf1698283ac4a2bb62d199115b293da",
+    "isvisible": true,
+    "kuid": "d3ef93c1d8cf4f83b26723f13841523c",
     "name": "kony.ui.Label",
-    "parent": "flxStar1",
+    "parent": "flxCount",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

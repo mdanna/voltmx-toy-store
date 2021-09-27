@@ -37,7 +37,16 @@
     "children": [
         "lblActionFigures",
         "flxTitle",
-        "lblLocation"
+        "lblLocation",
+        "flxRating",
+        "flxCart",
+        "flxSeparatorGrey",
+        "lblDescription",
+        "lblText",
+        "lblMoreDetails",
+        "imgMovie",
+        "flxPlaytime",
+        "flxSpacer"
     ],
     "clipbounds": true,
     "containerweight": 100,

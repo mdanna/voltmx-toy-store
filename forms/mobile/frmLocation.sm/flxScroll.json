@@ -37,7 +37,9 @@
     "bounces": false,
     "canUpdateUI": true,
     "children": [
-        "flxContent"
+        "imgMap",
+        "imgYou",
+        "imgItem"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -35,8 +35,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "cmpPopular1",
-        "cmpPopular2"
+        "cmpTeaserMedium1",
+        "cmpTeaserMedium2"
     ],
     "clipbounds": true,
     "containerweight": 100,

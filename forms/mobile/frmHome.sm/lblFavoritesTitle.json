@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "s4be581e8c3d410fa3a94c8ac61b25ed",
+    "_skin_": "sf235f94d6524175aaacd10d37b52693",
     "_text_": "Favorites",
     "_top_": {
         "type": "string",
-        "value": "30dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "80%"
     },
     "_wrapping_": 2,
     "android": {
@@ -58,7 +58,7 @@
     "kuid": "f526ef672c3b4008810c57ebd6862bb5",
     "name": "kony.ui.Label",
     "paddinginpixel": false,
-    "parent": "flxFavorites",
+    "parent": "flxFavoritesTitle",
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

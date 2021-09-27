@@ -15,6 +15,11 @@
         0
     ],
     "_percent_": true,
+    "_pxMenuIndex": [
+        0,
+        1,
+        2
+    ],
     "_skin_": "sf73c3e098f0421e9f43a765129c1b95",
     "_title_": null,
     "addWidgetsdone": false,
@@ -29,7 +34,13 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "cmpDefaultHeader",
+        "flxTitle",
+        "flxContentIcon",
+        "flxContentList",
+        "cmpFooterMenu"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -37,9 +48,11 @@
             "name": "frmFavoritesController"
         }
     },
+    "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
+    "device": "iPhone11",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmFavorites",
@@ -93,6 +106,9 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
+    "platform": "iphone",
+    "prevDevice": "iPhone11",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

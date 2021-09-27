@@ -36,6 +36,7 @@
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {
+        "ide_onClick": "AS_UWI_g0fba81133644575b2e73e0c281f758d",
         "image": "homefavoritesmovieimg.png",
         "info": "",
         "price": "$9.99",

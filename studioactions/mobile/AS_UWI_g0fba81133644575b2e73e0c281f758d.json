@@ -1,0 +1,28 @@
+{
+    "AS_UWI_g0fba81133644575b2e73e0c281f758d": {
+        "id": "AS_UWI_g0fba81133644575b2e73e0c281f758d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g8ebd9e8ec3f4598983c98bd33bb7e7b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__j4e9b81ef81e47138ec467fb8f617e85",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmProduct",
+            "formKUID": "hd3304e7c8294642834f4fc242b470d8",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -22,7 +22,7 @@ define(function() {
 						new kony.mvc.Navigation('frmLocation').navigate();
 					};
 					this.view.flxMenuCart.onClick = () => {
-						this.onItemSelection(globals.MENU_ITEM_CART);
+						new kony.mvc.Navigation('frmCart').navigate();
 					};
 					this.INIT_DONE = true;
 				}

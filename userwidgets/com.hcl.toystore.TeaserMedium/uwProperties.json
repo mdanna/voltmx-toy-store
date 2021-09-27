@@ -21,7 +21,7 @@
                     "access": "Write",
                     "defaultValue": false,
                     "group": "General",
-                    "kuid": "f202cc9605984bec8755c7f809fc1edb",
+                    "kuid": "f68d8b5853a740abbdb0f0055704218a",
                     "originalPropertyKey": "like",
                     "propertyIndex": 4,
                     "propertyKey": "like",
@@ -30,7 +30,7 @@
                         "displayName": "Like",
                         "uiRepresentation": "Label-Radiobuttongroup"
                     },
-                    "srcWgtKUID": "f741ae717c564acf881e8dc8e6dababd",
+                    "srcWgtKUID": "ef544fe61876470f9f11ab9560a285ec",
                     "type": "boolean",
                     "value": "true/false"
                 }
@@ -39,7 +39,7 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "ee69d3a15115421eb94a85291bcf9033",
+                    "kuid": "f624b00f99704018857917157da0a2e6",
                     "originalPropertyKey": "src",
                     "propertyIndex": 1,
                     "propertyKey": "image",
@@ -64,12 +64,12 @@
                         "uiRepresentation": "Label-Label-Button",
                         "wType": "Image"
                     },
-                    "srcWgtKUID": "d4b894e90cc849d49fd347d8d225e328"
+                    "srcWgtKUID": "e4292681190648a1bce7fa1656efae44"
                 },
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "d31fda6e24314b5c8eef8af0587060a4",
+                    "kuid": "ef5a0274b13c44fc92940837b626e0c5",
                     "originalPropertyKey": "text",
                     "propertyIndex": 2,
                     "propertyKey": "title",
@@ -85,12 +85,12 @@
                         "uiRepresentation": "Label-Textbox",
                         "wType": "Label"
                     },
-                    "srcWgtKUID": "f8e428638789464d8231aac2f372f0e6"
+                    "srcWgtKUID": "d4de96e6547e4109993cc128683948f6"
                 },
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "c1ed7ec25f9449e2a82d7287729f6734",
+                    "kuid": "dc91fda07f834dd8ae65ad40885ca7bd",
                     "originalPropertyKey": "text",
                     "propertyIndex": 3,
                     "propertyKey": "price",
@@ -106,7 +106,7 @@
                         "uiRepresentation": "Label-Textbox",
                         "wType": "Label"
                     },
-                    "srcWgtKUID": "dfb6e9e385f44babba176fdddb2286ab"
+                    "srcWgtKUID": "g0260943579a40348e775ef9332c8970"
                 }
             ]
         },

@@ -1,0 +1,68 @@
+{
+    "classname": "IconListToggle",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c4ae22338bd749b5ae6739fe56c18ca3",
+                    "paramList": [
+                        {
+                            "name": "mode"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onModeChange",
+                    "pw": {
+                        "displayName": "onModeChange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f1ab035e65eb41119a3ed7dc5ec9afe3",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "icon",
+                    "group": "General",
+                    "kuid": "bd170431d257475fa667fe05f0960b96",
+                    "originalPropertyKey": "mode",
+                    "propertyIndex": 1,
+                    "propertyKey": "mode",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Mode",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "f1ab035e65eb41119a3ed7dc5ec9afe3",
+                    "type": "list selector",
+                    "value": [
+                        "icon",
+                        "list"
+                    ]
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.toystore",
+    "version": "1.0.0"
+}

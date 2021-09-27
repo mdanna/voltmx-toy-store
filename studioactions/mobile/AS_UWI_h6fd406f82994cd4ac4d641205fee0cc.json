@@ -1,0 +1,22 @@
+{
+    "AS_UWI_h6fd406f82994cd4ac4d641205fee0cc": {
+        "id": "AS_UWI_h6fd406f82994cd4ac4d641205fee0cc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_af05b87330a04b40b4d476af38e4f167",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmProduct",
+            "formKUID": "hd3304e7c8294642834f4fc242b470d8",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

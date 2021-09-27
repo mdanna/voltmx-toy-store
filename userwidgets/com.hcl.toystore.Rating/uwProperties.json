@@ -1,0 +1,47 @@
+{
+    "classname": "Rating",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "4",
+                    "group": "General",
+                    "kuid": "d15002e053e54b42ac9d67fd7fcd9c46",
+                    "originalPropertyKey": "rating",
+                    "propertyIndex": 1,
+                    "propertyKey": "rating",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Rating",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "a37f522a7ef0493496c16591114396e0",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.toystore",
+    "version": "1.0.0"
+}

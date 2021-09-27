@@ -35,7 +35,7 @@
     "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "lblFavoritesTitle",
+        "flxFavoritesTitle",
         "flxFavoritesList"
     ],
     "clipbounds": true,

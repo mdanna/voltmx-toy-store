@@ -20,11 +20,12 @@ define(function() {
     },
 		
 		setRating() {
+			this.view.lblRatingValue.text = `(${this.rating})`;
 			const num = Math.ceil(this.rating) - this.rating <= this.rating - Math.floor(this.rating) ? 
 						Math.ceil(this.rating) : Math.floor(this.rating);
 			for(i = 1; i <=5 ; i++) {
 					this.view['lblStarSelected' + i].isVisible = num >= i;
-			} 
+			}
 		}
 	};
 });

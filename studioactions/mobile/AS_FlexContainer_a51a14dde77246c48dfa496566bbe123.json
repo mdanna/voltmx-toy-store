@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_a51a14dde77246c48dfa496566bbe123": {
+        "id": "AS_FlexContainer_a51a14dde77246c48dfa496566bbe123",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCart",
+            "type": "forms",
+            "platform": "",
+            "KUID": "acfed18f758b4ca9aa824f76576c6ddf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_gdd57af340694065aa8453ab7d22cbd6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "self.view.flxPaymentOverlay.isVisible=false;\nself.view.flxCartOverlay.isVisible = true;\n",
+            "parentId": null
+        }]
+    }
+}

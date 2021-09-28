@@ -10,9 +10,7 @@ define({
 			};
 			
 			this.view.txtSearch.onTextChange = () => {
-				if(!this.view.txtSearch.text){
-					this.moveDown();
-				} else {
+				if(this.view.txtSearch.text){
 					this.moveUp();
 				}
 			};
@@ -36,6 +34,7 @@ define({
 			for(let i = 1; i <= 8; i++){
 				this.view[`lblKeyword${i}`].onTouchEnd = () => {
 					this.view.txtSearch.text = this.view[`lblKeyword${i}`].text;
+					this.view.txtSearch.setFocus(true);
 					this.moveUp();
 				};
 			}
@@ -75,6 +74,7 @@ define({
 	
 	onClickRecentKeyword(){
 		this.view.txtSearch.text = this.view.segRecentKeywords.selectedRowItems[0].lblKeyword;
+		this.view.txtSearch.setFocus(true);
 	},
 	
 	onClearRecentKeyword(){

@@ -9,7 +9,7 @@
             },
             "lblKeyword": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Pippo"
+                "text": "Action Figures"
             }
         },
         {
@@ -19,7 +19,7 @@
             },
             "lblKeyword": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Guga"
+                "text": "Vehicles"
             }
         },
         {
@@ -29,27 +29,7 @@
             },
             "lblKeyword": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Paperino"
-            }
-        },
-        {
-            "lblClear": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "f"
-            },
-            "lblKeyword": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Gigi"
-            }
-        },
-        {
-            "lblClear": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "f"
-            },
-            "lblKeyword": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Raperonzolo"
+                "text": "Building Tools"
             }
         }
     ],
@@ -133,7 +113,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": 0,
+    "selectedsectionindex": null,
     "selectionbehavior": "default",
     "separatorrequired": false,
     "showscrollbars": false,

@@ -2,8 +2,8 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "10%"
     },
     "_left_": {
         "type": "string",
@@ -25,7 +25,7 @@
     "_text_": "Store # 1234, Austin, TX",
     "_top_": {
         "type": "string",
-        "value": "5%"
+        "value": "0%"
     },
     "_width_": {
         "type": "ref",

@@ -36,7 +36,8 @@
     "canUpdateUI": true,
     "children": [
         "flxSearchContainer",
-        "flxSearchKeywords"
+        "flxSearchKeywords",
+        "flxRecentKeywords"
     ],
     "clipbounds": true,
     "containerweight": 100,

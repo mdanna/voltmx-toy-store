@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "50dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -16,7 +16,7 @@
         0
     ],
     "_padding_": [
-        3,
+        20,
         0,
         0,
         0
@@ -30,7 +30,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "60%"
+        "value": "90%"
     },
     "autocapitalize": "none",
     "autocomplete": false,
@@ -55,6 +55,7 @@
     "kuid": "g3a5081a3acd4fdf88d6d537aef7e4af",
     "mode": "A",
     "name": "kony.ui.TextBox2",
+    "paddinginpixel": false,
     "parent": "flxSearch",
     "pf": "frmSearch",
     "placeholderskin": "s80d1b8148e34c51b3b13744a9c7535b",

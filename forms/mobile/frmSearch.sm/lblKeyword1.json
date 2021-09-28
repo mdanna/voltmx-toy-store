@@ -3,7 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         1,
@@ -17,11 +21,11 @@
         0,
         0
     ],
-    "_skin_": "sb6357f940784eb39483293bf0441e01",
-    "_text_": "1",
+    "_skin_": "s1d4b12220a240dbaa008702418be367",
+    "_text_": "Action Figures",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "20dp"
     },
     "_width_": {
         "type": "string",
@@ -35,17 +39,9 @@
         }
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "lblDelete",
+    "id": "lblKeyword1",
     "info": null,
     "ipad": {
         "psp": {
@@ -59,9 +55,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "gc0555f583f54af08ea94b7ea4841088",
+    "kuid": "g7c3e850c6e247989cde2d1e3e449146",
     "name": "kony.ui.Label",
-    "parent": "flxDelete",
+    "parent": "flxSearchKeywords",
     "pf": "frmSearch",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

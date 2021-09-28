@@ -1,0 +1,152 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "lblClear": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "f"
+            },
+            "lblKeyword": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Pippo"
+            }
+        },
+        {
+            "lblClear": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "f"
+            },
+            "lblKeyword": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Guga"
+            }
+        },
+        {
+            "lblClear": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "f"
+            },
+            "lblKeyword": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Paperino"
+            }
+        },
+        {
+            "lblClear": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "f"
+            },
+            "lblKeyword": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Gigi"
+            }
+        },
+        {
+            "lblClear": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "f"
+            },
+            "lblKeyword": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Raperonzolo"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "04",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "ae451255f62a416c91252dbaf4e33520",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segRecentKeywords",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cc65f0b273634e2995b23af3003c1108",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxRecentKeywords",
+    "pf": "frmSearch",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "b6cc505939ec48f8844c627144d03170",
+    "rowcounter": 4,
+    "rowfocusskin": "secba017188847f3bd6038ff813f1ac3",
+    "rowskin": "s3a7f582aade4d659a0b0612f4045c9a",
+    "rowtemplate": "Flex0c96d7218090648",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s6baf027cf724ad3948437c773a8b859",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxClear": "flxClear",
+        "flxKeyword": "flxKeyword",
+        "flxRecentKeywords": "flxRecentKeywords",
+        "lblClear": "lblClear",
+        "lblKeyword": "lblKeyword"
+    },
+    "zindex": 1
+}

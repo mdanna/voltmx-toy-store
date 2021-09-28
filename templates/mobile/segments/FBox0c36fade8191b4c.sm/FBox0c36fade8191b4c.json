@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "20dp"
+        "value": "50dp"
     },
     "_margin_": [
         0,
@@ -18,41 +18,38 @@
         0
     ],
     "_percent_": true,
-    "_right_": {
-        "type": "string",
-        "value": "5%"
-    },
-    "_skin_": "s386260653764c0db70cca956ebb16f7",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "_skin_": "s02e7949704441acba6e98f1b1e41c57",
     "_width_": {
         "type": "string",
-        "value": "20dp"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "lblDelete"
+        "lblKeyword",
+        "lblClear"
     ],
-    "clipbounds": true,
+    "clipbounds": false,
+    "containerId": true,
     "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "FBox0c36fade8191b4cController"
+        }
+    },
     "enablescrolling": true,
-    "id": "flxDelete",
+    "id": "FBox0c36fade8191b4c",
     "info": null,
+    "isGeneratedTemplate": true,
+    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "j62350b669c74165a89f3cf79b5020db",
+    "kuid": "ae451255f62a416c91252dbaf4e33520",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxSearch",
-    "pf": "frmSearch",
+    "pf": "FBox0c36fade8191b4c",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

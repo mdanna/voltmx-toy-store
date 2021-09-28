@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "80%"
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
-        "value": "8%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -22,33 +22,33 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "scbfb72251134191bc9ee70f7141a130",
+    "_skin_": "s02e7949704441acba6e98f1b1e41c57",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "59%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "lblSearch",
-        "txtSearch"
+        "lblRecentKeywords",
+        "lblClearAll"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxSearch",
+    "id": "flxRecentHeader",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "beba9660e07b4e3f992415c44dbbb269",
-    "layouttype": 2,
+    "kuid": "j6a4a1058cc84adabd76840eff04a160",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxSearchContainer",
+    "parent": "flxRecentKeywords",
     "pf": "frmSearch",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -45,7 +45,7 @@
     "kuid": "h5390fb69f294ced8ff064ae0fbf3170",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxSearchKeywords",
+    "parent": "flxRecentKeywords",
     "pf": "frmSearch",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

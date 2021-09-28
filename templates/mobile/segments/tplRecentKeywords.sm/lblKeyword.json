@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -21,11 +21,11 @@
         0,
         0
     ],
-    "_skin_": "s1d4b12220a240dbaa008702418be367",
-    "_text_": "Action Figures",
+    "_skin_": "s71907786a90476c9e516501198ff661",
+    "_text_": "Label",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -39,9 +39,10 @@
         }
     },
     "canUpdateUI": true,
+    "containerId": true,
     "containerweight": 100,
-    "contentalignment": 5,
-    "id": "lblKeword1",
+    "contentalignment": 4,
+    "id": "lblKeyword",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +56,11 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g7c3e850c6e247989cde2d1e3e449146",
+    "kuid": "jfbd4e3b833646219842d7c8d609fb4e",
     "name": "kony.ui.Label",
-    "parent": "flxSearchKeywords",
-    "pf": "frmSearch",
+    "paddinginpixel": false,
+    "parent": "flxKeyword",
+    "pf": "tplRecentKeywords",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

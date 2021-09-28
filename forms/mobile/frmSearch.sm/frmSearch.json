@@ -18,7 +18,7 @@
     "_pxMenuIndex": [
         0,
         1,
-        4
+        7
     ],
     "_skin_": "sf73c3e098f0421e9f43a765129c1b95",
     "_title_": null,
@@ -36,7 +36,7 @@
     "canUpdateUI": true,
     "children": [
         "cmpDefaultHeader",
-        "flxScroll",
+        "flxContent",
         "cmpFooterMenu"
     ],
     "containerweight": 100,
@@ -105,7 +105,7 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "iphone",
-    "prevDevice": "iPhone11",
+    "prevDevice": "iPhone11Pro",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -46,6 +46,7 @@
     "containerweight": 100,
     "enablescrolling": true,
     "id": "flxAddToCart",
+    "ide_onClick": "AS_FlexContainer_e479775d06f747aab02e559082e073af",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

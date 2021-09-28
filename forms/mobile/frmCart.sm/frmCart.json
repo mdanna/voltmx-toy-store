@@ -34,7 +34,11 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "flxCartOverlay",
+        "flxPaymentOverlay",
+        "flxSuccessOverlay"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {

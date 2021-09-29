@@ -45,7 +45,7 @@
     "id": "flxCartOverlay",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "d9114245120442aa98496ef530405c92",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "80%"
+        "value": "90%"
     },
     "_left_": {
         "type": "string",
@@ -25,7 +25,7 @@
     "_skin_": "s95d352383274516a9b5acdf25b2b423",
     "_top_": {
         "type": "string",
-        "value": "20%"
+        "value": "10%"
     },
     "_width_": {
         "type": "string",
@@ -58,7 +58,7 @@
     "layouttype": 4,
     "name": "kony.ui.FlexScrollContainer",
     "pagingenabled": false,
-    "parent": "frmFavorites",
+    "parent": "flxContent",
     "pf": "frmFavorites",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

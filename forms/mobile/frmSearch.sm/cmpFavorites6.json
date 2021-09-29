@@ -42,7 +42,7 @@
     "data": {
         "image": "favoritestreealienimg.png",
         "info": "Lowest Price",
-        "like": false,
+        "like": true,
         "price": "$7.99",
         "title": "Tree Alien Figure"
     },
@@ -50,11 +50,11 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i8033fbec1ba441fb339a2ef5b272a3b",
+    "kuid": "jcd910b99e3d4709816baf88c771f1bf",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "flxRow3",
-    "pf": "frmFavorites",
+    "pf": "frmSearch",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

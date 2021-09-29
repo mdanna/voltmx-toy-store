@@ -25,7 +25,7 @@
     "_skin_": "s02e7949704441acba6e98f1b1e41c57",
     "_top_": {
         "type": "string",
-        "value": "10%"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
@@ -48,7 +48,7 @@
     "kuid": "cc6faf99e8824efd82333df15fef47ed",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmFavorites",
+    "parent": "flxContent",
     "pf": "frmFavorites",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

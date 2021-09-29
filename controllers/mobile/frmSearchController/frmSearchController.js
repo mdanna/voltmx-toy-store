@@ -10,7 +10,8 @@ define({
 			};
 			
 			this.view.txtSearch.onTextChange = () => {
-				if(this.view.txtSearch.text){
+				const text = this.view.txtSearch.text;
+				if(text){
 					this.moveUp();
 				}
 			};
@@ -23,6 +24,7 @@ define({
 						lblKeyword: text.trim(),
 						lblClear: 'f' 
 					}, data.length, 0);
+					this.search(text);
 				}
 			};
 			
@@ -36,6 +38,7 @@ define({
 					this.view.txtSearch.text = this.view[`lblKeyword${i}`].text;
 					this.view.txtSearch.setFocus(true);
 					this.moveUp();
+					this.search(this.view.txtSearch.text);
 				};
 			}
 			
@@ -70,11 +73,20 @@ define({
 		this.view.flxCamera.isVisible = true;
 		this.view.flxSearchKeywords.isVisible = true;
 		this.view.flxRecentKeywords.isVisible = false;
+		this.view.flxSearchResults.isVisible = false;
+	},
+	
+	search(keyword){
+		this.view.flxSearchResults.isVisible = true;
+		this.view.flxSearchKeywords.isVisible = false;
+		this.view.flxRecentKeywords.isVisible = false;
 	},
 	
 	onClickRecentKeyword(){
 		this.view.txtSearch.text = this.view.segRecentKeywords.selectedRowItems[0].lblKeyword;
 		this.view.txtSearch.setFocus(true);
+		this.moveUp();
+		this.search(this.view.txtSearch.text);
 	},
 	
 	onClearRecentKeyword(){

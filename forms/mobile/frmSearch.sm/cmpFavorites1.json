@@ -36,25 +36,26 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "73%"
+        "value": "27%"
     },
     "containerweight": 0,
     "data": {
-        "image": "favoritestreealienimg.png",
-        "info": "Lowest Price",
-        "like": false,
-        "price": "$7.99",
-        "title": "Tree Alien Figure"
+        "ide_onClick": "AS_UWI_a30bff7de1314005925ea320e640d039",
+        "image": "homefavoritesmovieimg.png",
+        "info": "",
+        "like": true,
+        "price": "$9.99",
+        "title": "Movie Figure"
     },
-    "id": "cmpFavorites6",
+    "id": "cmpFavorites1",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i8033fbec1ba441fb339a2ef5b272a3b",
+    "kuid": "j48acf79baa84929bc99ffad7ac689ce",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxRow3",
-    "pf": "frmFavorites",
+    "parent": "flxRow1",
+    "pf": "frmSearch",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

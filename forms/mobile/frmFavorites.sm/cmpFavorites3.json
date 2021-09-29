@@ -42,7 +42,7 @@
     "data": {
         "image": "homefavoritescarimg.png",
         "info": "",
-        "like": true,
+        "like": false,
         "price": "$1.99",
         "title": "Car"
     },

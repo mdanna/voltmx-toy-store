@@ -46,6 +46,11 @@ define({
 				this.view.segRecentKeywords.setData([]);
 			};
 			
+			this.view.cmpIconListToggle.onModeChange = (mode) => {
+				this.view.flxContentIcon.isVisible = mode === 'icon';
+				this.view.flxContentList.isVisible = mode === 'list';
+			};
+			
 			mEventManager.subscribe(globals.ON_CLICK_KEYWORD, this.onClickRecentKeyword.bind(this));
 			mEventManager.subscribe(globals.ON_CLEAR_KEYWORD, this.onClearRecentKeyword.bind(this));
 		};

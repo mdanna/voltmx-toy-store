@@ -37,7 +37,8 @@
     "children": [
         "cmpDefaultHeader",
         "flxContent",
-        "cmpFooterMenu"
+        "cmpFooterMenu",
+        "speechtotext"
     ],
     "containerweight": 100,
     "controllerInfo": {

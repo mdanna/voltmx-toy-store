@@ -1,8 +1,24 @@
 {
+  "android": {
+    "background_image": "splashrobotimg.png",
+    "bg_type": "image"
+  },
   "background_image": "splashrobotimg.png",
   "bg_type": "image",
   "border_color": "ffffffff",
+  "iphone": {
+    "background_image": "splashrobotimg.png",
+    "bg_type": "image"
+  },
   "isDefaultSkin": false,
   "kuid": "sa46532fa2c34e31b42d07a6c8e10b18",
+  "spaan": {
+    "background_image": "splashrobotimg.png",
+    "bg_type": "image"
+  },
+  "spaip": {
+    "background_image": "splashrobotimg.png",
+    "bg_type": "image"
+  },
   "wType": "Form"
 }

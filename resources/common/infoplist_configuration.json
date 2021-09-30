@@ -16,5 +16,7 @@
  
     "NSCameraUsageDescription" : "This is a dummy description"
 */
+"NSSpeechRecognitionUsageDescription": "sample description",
+"NSMicrophoneUsageDescription": "sample description"
 }
 

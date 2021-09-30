@@ -1,6 +1,6 @@
 {
   "android": {
-    "font_name": "Showcase-Toys-Icons",
+    "font_name": "Showcase-Toys-Icons-v2",
     "font_size": 150,
     "isForked": false
   },
@@ -33,7 +33,7 @@
     "isForked": false
   },
   "iphone": {
-    "font_name": "Showcase-Toys-Icons",
+    "font_name": "Showcase-Toys-Icons-v2",
     "font_size": 150,
     "isForked": false
   },
@@ -45,7 +45,7 @@
   },
   "kuid": "s16648ff6deb4a089ba9890c748625d9",
   "spaan": {
-    "font_name": "Helvetica",
+    "font_name": "Showcase-Toys-Icons-v2",
     "font_size": 150,
     "isForked": false
   },
@@ -55,7 +55,7 @@
     "isForked": false
   },
   "spaip": {
-    "font_name": "Helvetica",
+    "font_name": "Showcase-Toys-Icons-v2",
     "font_size": 150,
     "isForked": false
   },

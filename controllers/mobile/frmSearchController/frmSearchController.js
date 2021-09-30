@@ -28,6 +28,16 @@ define({
 				}
 			};
 			
+			this.view.flxMicrophone.onTouchEnd = () => {
+				this.view.speechtotext.speech();
+			};
+			
+			this.view.speechtotext.speechCallback = (text) => {
+				this.view.txtSearch.text = text;
+				this.view.txtSearch.setFocus(true);
+				this.moveUp();
+			};
+			
 			this.view.flxCancel.onTouchEnd = () => {
 				this.view.txtSearch.text = '';
 				this.moveDown();

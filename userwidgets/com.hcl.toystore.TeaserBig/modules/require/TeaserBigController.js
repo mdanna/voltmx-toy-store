@@ -7,6 +7,9 @@ define(function() {
 			this.view.preShow = () => {
 				if(!this.INIT_DONE){
 					this.view.flxInfo.isVisible = !!((this.info || "").trim());
+					this.view.imgTeaser.onTouchEnd = () => {
+						this.onClickImage();
+					};
 					this.INIT_DONE = true;
 				}
 			};
@@ -22,6 +25,8 @@ define(function() {
 					this.view.cmpLike.like = !!value;
 				}
       });
-    }
+    },
+		
+		onClickImage(){}
 	};
 });

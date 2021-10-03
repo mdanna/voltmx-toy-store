@@ -7,31 +7,13 @@
         },
         "events": {
             "custom": [],
-            "passthrough": [
-                {
-                    "access": "Enable",
-                    "group": "General",
-                    "kuid": "bdb37f3e46c14d5e856d8b14d2bc72fd",
-                    "originalPropertyKey": "onClick",
-                    "propertyIndex": 1,
-                    "propertyKey": "onClick",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "action",
-                        "displayName": "onClick",
-                        "srcWidget": "flxLike",
-                        "type": "action",
-                        "uiRepresentation": "Label-Label-Button-Button",
-                        "wType": "FlexContainer"
-                    },
-                    "srcWgtKUID": "dc338fa85fcd44dcac4e69388f011a8d",
-                    "translateAtInstance": false
-                }
-            ]
+            "passthrough": []
         },
         "groups": {
             "apis": [],
-            "events": [],
+            "events": [
+                "android"
+            ],
             "properties": [],
             "widgets": []
         },

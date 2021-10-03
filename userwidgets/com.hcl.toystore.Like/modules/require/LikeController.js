@@ -6,7 +6,7 @@ define(function() {
 		constructor: function(baseConfig, layoutConfig, pspConfig) {
 			this.view.preShow = () => {
 				if(!this.INIT_DONE){
-					this.view.flxLike.onClick = () => {
+					this.view.flxLike.onTouchEnd = () => {
 						//toggle the like icon upon clicking on the flxLike
 						this.view.lblLikeOn.isVisible = !this.view.lblLikeOn.isVisible;
 						this.view.lblLikeOff.isVisible = !this.view.lblLikeOff.isVisible;

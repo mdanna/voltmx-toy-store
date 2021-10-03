@@ -16,7 +16,7 @@
         "actions": [{
             "id": "ADD_SNIPPET_ge1737b5b2b742829ee040a0301036ea",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "    self.view.flxSuccessOverlay.isVisible = false;\n    self.view.flxCartBegin.isVisible = true;\n",
+            "codeSnippet": "    self.view.flxSuccessOverlay.isVisible = false;\n    self.view.flxCartOverlay.isVisible = true;\n",
             "parentId": null
         }, {
             "id": "NAVIGATE_TO_FORM__d319d24547a141e3b5cb31d9ad0ce36d",

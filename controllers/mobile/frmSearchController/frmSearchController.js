@@ -32,6 +32,11 @@ define({
 				this.view.speechtotext.speech();
 			};
 			
+			this.view.flxScanner.onClick = () => {
+				new kony.mvc.Navigation('frmScanner').navigate();
+			};
+
+			
 			this.view.speechtotext.speechCallback = (text) => {
 				this.view.txtSearch.text = text;
 				this.view.txtSearch.setFocus(true);
@@ -66,6 +71,13 @@ define({
 		};
 	},
 	
+	onNavigate(text){
+		if(text){
+			this.moveUp();
+			this.view.txtSearch.text = text;
+		}
+	},
+	
 	moveUp() {
 		this.view.cmpDefaultHeader.isVisible = false;
 		this.view.flxContent.top = '0';
@@ -73,7 +85,7 @@ define({
 		this.view.flxSearch.width = '70%';
 		this.view.flxCancel.isVisible = true;
 		this.view.flxMicrophone.isVisible = false;
-		this.view.flxCamera.isVisible = false;
+		this.view.flxScanner.isVisible = false;
 		this.view.flxSearchKeywords.isVisible = false;
 		this.view.flxRecentKeywords.isVisible = true;
 	},
@@ -85,7 +97,7 @@ define({
 		this.view.flxSearch.width = '59%';
 		this.view.flxCancel.isVisible = false;
 		this.view.flxMicrophone.isVisible = true;
-		this.view.flxCamera.isVisible = true;
+		this.view.flxScanner.isVisible = true;
 		this.view.flxSearchKeywords.isVisible = true;
 		this.view.flxRecentKeywords.isVisible = false;
 		this.view.flxSearchResults.isVisible = false;

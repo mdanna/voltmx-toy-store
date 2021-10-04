@@ -14,9 +14,9 @@
             }
     } ,
  
-    "NSCameraUsageDescription" : "This is a dummy description"
 */
-"NSSpeechRecognitionUsageDescription": "sample description",
-"NSMicrophoneUsageDescription": "sample description"
+"NSSpeechRecognitionUsageDescription": "This application requires the usage of speech recognition features.",
+"NSMicrophoneUsageDescription": "This application requires the usage of micorphone.",
+"NSCameraUsageDescription" : "This application requires the usage of camera."
 }
 

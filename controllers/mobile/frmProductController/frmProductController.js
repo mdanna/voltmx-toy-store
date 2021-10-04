@@ -25,6 +25,21 @@ define({
 				}
 			};
 		};
+		
+		this.view.preShow = () => {
+			const product = this.navigationContext;
+			if(product){
+				this.view.imgProduct.src = product.img;
+				this.view.cmpLike.like = !!product.like;
+				this.view.lblCategories.text = product.categories.join(', ');
+				this.view.lblTitle.text = product.name;
+				this.view.lblPrice.text = product.price;
+				this.view.lblLocation.text = `Located at ${product.location}`;
+				this.view.lblReviews.text = `Read Reviews (${product.numReviews})`;
+				this.view.cmpRating.rating = product.rating;
+				this.view.lblAvailable.text = `${product.availability} Available`;
+			}
+		};
 	}
 
 });

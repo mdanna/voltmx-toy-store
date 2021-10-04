@@ -6,12 +6,14 @@ define(function() {
 		constructor(baseConfig, layoutConfig, pspConfig) {
 			this.view.preShow = () => {
 				if(!this.INIT_DONE){
-					this.view.flxInfo.isVisible = !!((this.info || "").trim());
-					this.view.imgTeaser.onTouchEnd = () => {
+					this.view.flxImage.onClick = () => {
 						this.onClickImage();
 					};
 					this.INIT_DONE = true;
 				}
+			};
+			this.view.postShow = () => {
+				this.view.flxInfo.isVisible = !!this.view.lblInfo.text;
 			};
 		},
 		//Logic for getters/setters of custom properties
@@ -21,9 +23,9 @@ define(function() {
       });
       defineSetter(this, 'like', value => {
         this._like = value;
-				if(this.view.cmpLike){
-					this.view.cmpLike.like = !!value;
-				}
+        if (this.view.cmpLike) {
+          this.view.cmpLike.like = !!value;
+        }
       });
     },
 		

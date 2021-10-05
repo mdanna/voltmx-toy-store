@@ -44,6 +44,7 @@ define({
 				this.view.txtSearch.text = text;
 				this.view.txtSearch.setFocus(true);
 				this.moveUp();
+				this.search(text);
 			};
 			
 			this.view.flxCancel.onTouchEnd = () => {
@@ -53,11 +54,6 @@ define({
 			
 			this.view.lblClearAll.onTouchEnd = () => {
 				this.view.segRecentKeywords.setData([]);
-			};
-			
-			this.view.cmpIconListToggle.onModeChange = (mode) => {
-				this.view.flxContentIcon.isVisible = mode === 'icon';
-				this.view.flxContentList.isVisible = mode === 'list';
 			};
 			
 			mEventManager.subscribe(globals.ON_CLICK_KEYWORD, this.onClickRecentKeyword.bind(this));
@@ -115,13 +111,16 @@ define({
 		this.view.flxScanner.isVisible = true;
 		this.view.flxCategories.isVisible = true;
 		this.view.flxRecentKeywords.isVisible = false;
-		this.view.flxSearchResults.isVisible = false;
+		this.view.cmpSearchResults.isVisible = false;
 	},
 	
 	search(keyword){
-		this.view.flxSearchResults.isVisible = true;
+		this.view.cmpSearchResults.data = appData.search(keyword);
+		this.view.cmpSearchResults.isVisible = true;
 		this.view.flxCategories.isVisible = false;
 		this.view.flxRecentKeywords.isVisible = false;
+		//the following is necessary to refresh the form and enable the onClick events on search results
+		new kony.mvc.Navigation('frmSearch').navigate();
 	},
 	
 	onClickRecentKeyword(){

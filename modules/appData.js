@@ -183,7 +183,7 @@ const appData = {
 		},
 		'RC Dancing Robot': {
 			subtitle: '',
-			categories: ['Action Figures', 'Movies', 'Vehicles'],
+			categories: ['Action Figures'],
 			price: '$29.99',
 			location: 'Aisle 1, Shelf B',
 			rating: 5,
@@ -319,7 +319,7 @@ const appData = {
 	
 	search(text) {
 		let ret = [];
-		text = text.trim.toLowerCase();
+		text = (text || '').trim().toLowerCase();
 		for(let key in appData.products){
 			if(key.toLowerCase().includes(text)){
 				ret.push({name: key, ...appData.products[key]});	

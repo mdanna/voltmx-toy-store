@@ -4,7 +4,11 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "27dp"
+        "value": "90%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -20,39 +24,31 @@
         0
     ],
     "_percent_": true,
-    "_right_": {
-        "type": "string",
-        "value": "10%"
-    },
-    "_skin_": "s4dca32317124eac9676d84c841d37e3",
+    "_skin_": "s02e7949704441acba6e98f1b1e41c57",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
-        "value": "53dp"
+        "value": "100%"
     },
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 0,
     "data": {},
-    "id": "cmpIconListToggle",
+    "id": "cmpSearchResults",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
-    "kuid": "cc508fc90ebe42eebdbd9fd84f217e61",
+    "isvisible": false,
+    "kuid": "f6840637401e40f58b7b70e994ac2623",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxTitle",
+    "parent": "flxContent",
     "pf": "frmSearch",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "f1ab035e65eb41119a3ed7dc5ec9afe3",
+    "sourceUserWidget": "h6a434f847794fa7b784284f92aa18e5",
     "wType": "UserWidgetInstance",
-    "zindex": 1
+    "zindex": 10
 }

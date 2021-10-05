@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblSeeAll",
+    "id": "lblSeeAllNewProducts",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "dfbbf55d12b14153b44ec80e8e8799a8",
+    "kuid": "j911224a7b604fb99d773d2678ec246c",
     "name": "kony.ui.Label",
     "paddinginpixel": false,
-    "parent": "flxFavoritesTitle",
+    "parent": "flxNewProductsTitle",
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

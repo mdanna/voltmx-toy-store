@@ -209,7 +209,7 @@ const appData = {
 			movie: '',
 			movieTitle: '',
 			like: true,
-			isNew: false,
+			isNew: true,
 			isPopular: true,
 			isFavorite: false
 		},
@@ -257,7 +257,7 @@ const appData = {
 			movie: '',
 			movieTitle: '',
 			like: true,
-			isNew: false,
+			isNew: true,
 			isPopular: false,
 			isFavorite: false
 		}
@@ -273,15 +273,21 @@ const appData = {
 		return homeHeroProduct;
 	},
 	
-	getNewProducts() {
+	getNewProducts(maxNum) {
 		let newProducts = [];
+		let count = 0;
 		for(let key in appData.products){
 			if(appData.products[key].isNew){
-				newProducts.push({name: key, ...appData.products[key]});
+				if(!maxNum || ++count <= maxNum){
+					newProducts.push({name: key, ...appData.products[key]});
+				} else {
+					break;
+				}
 			}
 		}
 		return newProducts;
 	},
+	
 	getPopularProducts() {
 		let popularProducts = [];
 		for(let key in appData.products){

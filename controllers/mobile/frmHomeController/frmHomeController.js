@@ -20,7 +20,7 @@ define({
 
 	setNewProducts(){
 		this.view.flxNewProductsList.removeAll();
-		const newProducts = appData.getNewProducts();
+		const newProducts = appData.getNewProducts(3);
 		newProducts.forEach((product, index) => {
 			const component = new com.hcl.toystore.TeaserBig({
 				id: `cmpNewProduct${index}`,
@@ -72,7 +72,8 @@ define({
 	},
 
 	setFavorites(){
-		this.view.lblSeeAll.onTouchEnd = () => new kony.mvc.Navigation('frmFavorites').navigate('Favorites');
+		this.view.lblSeeAllNewProducts.onTouchEnd = () => new kony.mvc.Navigation('frmFavorites').navigate('New Products');
+		this.view.lblSeeAllFavorites.onTouchEnd = () => new kony.mvc.Navigation('frmFavorites').navigate('Favorites');
 		
 		this.view.flxFavoritesList.removeAll();
 		const products = appData.getFavorites(3);

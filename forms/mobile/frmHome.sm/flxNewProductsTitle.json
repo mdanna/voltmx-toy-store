@@ -1,8 +1,8 @@
 {
     "DNDConfig": null,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
@@ -25,30 +25,30 @@
     "_skin_": "s02e7949704441acba6e98f1b1e41c57",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "30dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 1,
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxNewProductsTitle",
-        "flxNewProductsList"
+        "lblNewProductsTitle",
+        "lblSeeAllNewProducts"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxNewProductsContainer",
+    "id": "flxNewProductsTitle",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ic85c690cdd54571b6ac0d1fa18a22fb",
-    "layouttype": 4,
+    "kuid": "de36fa80d260405a97ce3c305646814e",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxContent",
+    "parent": "flxNewProductsContainer",
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -56,6 +56,5 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

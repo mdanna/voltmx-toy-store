@@ -16,20 +16,20 @@
         1
     ],
     "_padding_": [
-        10,
+        0,
         0,
         0,
         0
     ],
-    "_skin_": "sf235f94d6524175aaacd10d37b52693",
-    "_text_": "New Products",
+    "_skin_": "s32bba89ec484f2299ee8ce34bb1c06b",
+    "_text_": "See All",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "20%"
     },
     "_wrapping_": 2,
     "android": {
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblNewProductsTitle",
+    "id": "lblSeeAllFavorites",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "h3f6039d9f2f44c08a8680f44e31544a",
+    "kuid": "dfbbf55d12b14153b44ec80e8e8799a8",
     "name": "kony.ui.Label",
     "paddinginpixel": false,
-    "parent": "flxNewProductsTitle",
+    "parent": "flxFavoritesTitle",
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

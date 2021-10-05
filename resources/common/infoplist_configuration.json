@@ -1,6 +1,5 @@
 
 {
-/*
     "NSAppTransportSecurity" :
     {
         "NSAllowsArbitraryLoads" : true ,
@@ -14,9 +13,9 @@
             }
     } ,
  
-*/
 "NSSpeechRecognitionUsageDescription": "This application requires the usage of speech recognition features.",
 "NSMicrophoneUsageDescription": "This application requires the usage of micorphone.",
-"NSCameraUsageDescription" : "This application requires the usage of camera."
+"NSCameraUsageDescription" : "This application requires the usage of camera.",
+"NSPhotoLibraryUsageDescription": "This application needs access to Photo library"
 }
 

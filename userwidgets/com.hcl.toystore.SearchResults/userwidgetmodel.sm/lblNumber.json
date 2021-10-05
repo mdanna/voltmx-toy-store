@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "5dp"
+        "value": "0%"
     },
     "_margin_": [
         1,
@@ -21,8 +21,8 @@
         0,
         0
     ],
-    "_skin_": "s32bba89ec484f2299ee8ce34bb1c06b",
-    "_text_": "Results",
+    "_skin_": "s71907786a90476c9e516501198ff661",
+    "_text_": "6",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblResults",
+    "id": "lblNumber",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ec0ade0209e5408db39fc2add149203a",
+    "kuid": "i4a7acdfa3a94733b9d119cda8bbdfda",
     "name": "kony.ui.Label",
     "parent": "flxGroupResults",
-    "pf": "frmFavorites",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

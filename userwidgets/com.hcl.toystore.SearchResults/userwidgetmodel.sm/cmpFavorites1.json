@@ -4,11 +4,11 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "8%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -31,28 +31,30 @@
     },
     "_width_": {
         "type": "string",
-        "value": "92%"
+        "value": "170dp"
     },
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {
-        "image": "favoritestreealienimg.png",
-        "price": "$7.99",
-        "title": "Tree Alien Figure"
+        "ide_onClick": "AS_UWI_h6fd406f82994cd4ac4d641205fee0cc",
+        "image": "homefavoritesmovieimg.png",
+        "like": true,
+        "price": "$9.99",
+        "title": "Movie Figure"
     },
-    "id": "cmpTeaserSmall6",
+    "id": "cmpFavorites1",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": false,
-    "kuid": "b14f377a58174bb3be325483e1e818b8",
+    "isvisible": true,
+    "kuid": "d6d1999ffa724011a98f7186e8409b4f",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxContentList",
-    "pf": "frmFavorites",
+    "parent": "flxRow1",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "f741ae717c564acf881e8dc8e6dababd",
+    "sourceUserWidget": "a4dc0d90a8fc4c78a2e0d7ec49bed199",
     "wType": "UserWidgetInstance",
     "zindex": 1
 }

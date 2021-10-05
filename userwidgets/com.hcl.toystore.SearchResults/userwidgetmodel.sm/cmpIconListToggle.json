@@ -4,11 +4,7 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "100%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "27dp"
     },
     "_margin_": [
         0,
@@ -24,36 +20,39 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s02e7949704441acba6e98f1b1e41c57",
+    "_right_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_skin_": "s4dca32317124eac9676d84c841d37e3",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "170dp"
+        "value": "53dp"
     },
     "canUpdateUI": true,
-    "containerweight": 0,
-    "data": {
-        "image": "homefavoritescubeimg.png",
-        "like": true,
-        "price": "$5.99",
-        "title": "Puzzle Cube"
+    "centery": {
+        "type": "string",
+        "value": "50%"
     },
-    "id": "cmpFavorites2",
+    "containerweight": 0,
+    "data": {},
+    "id": "cmpIconListToggle",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ed84f21f752b4aadaba0b7e1f9d1e08c",
+    "kuid": "f8cd18d39db64f63a44756c9cbfad28b",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxRow1",
-    "pf": "frmFavorites",
+    "parent": "flxTitle",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "a4dc0d90a8fc4c78a2e0d7ec49bed199",
+    "sourceUserWidget": "f1ab035e65eb41119a3ed7dc5ec9afe3",
     "wType": "UserWidgetInstance",
     "zindex": 1
 }

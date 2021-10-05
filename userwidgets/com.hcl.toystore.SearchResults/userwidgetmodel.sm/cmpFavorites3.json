@@ -4,11 +4,11 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "8%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -31,30 +31,29 @@
     },
     "_width_": {
         "type": "string",
-        "value": "92%"
+        "value": "170dp"
     },
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {
-        "image": "homefavoritesmovieimg.png",
-        "like": true,
-        "price": "$9.99",
-        "title": "Movie Figure"
+        "image": "homefavoritescarimg.png",
+        "like": false,
+        "price": "$1.99",
+        "title": "Car"
     },
-    "id": "cmpTeaserSmall1",
-    "ide_onTouchEnd": "AS_UWI_e10a2347062049379fc0f079fb00f1f9",
+    "id": "cmpFavorites3",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g4dfc0a9693f4d6c855c5a827a9050b8",
+    "kuid": "a6ad5434d2c64fd6b76de0ee03906ffe",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxContentList",
-    "pf": "frmFavorites",
+    "parent": "flxRow2",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "f741ae717c564acf881e8dc8e6dababd",
+    "sourceUserWidget": "a4dc0d90a8fc4c78a2e0d7ec49bed199",
     "wType": "UserWidgetInstance",
     "zindex": 1
 }

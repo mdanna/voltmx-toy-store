@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "260dp"
     },
     "_left_": {
         "type": "string",
-        "value": "10%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -29,32 +29,37 @@
     },
     "_width_": {
         "type": "string",
-        "value": "40%"
+        "value": "340dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "lblNumber",
-        "lblResults"
+        "cmpFavorites3",
+        "cmpFavorites4"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxGroupResults",
+    "id": "flxRow2",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fbe73391c6b34b399a50c9dcb52bf9df",
+    "kuid": "g3eb4ac598c443d2a590748972381573",
     "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxTitle",
-    "pf": "frmFavorites",
+    "parent": "flxContentIcon",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1
+    "widgetalignment": 1,
+    "zindex": 1
 }

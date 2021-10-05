@@ -1,0 +1,28 @@
+{
+    "AS_UWI_ca452f3527d340ad9695c8d8a5d41a38": {
+        "id": "AS_UWI_ca452f3527d340ad9695c8d8a5d41a38",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onTouchEnd_c5f598287ce74e9689a682dedfcbfcd1",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmProduct",
+            "formKUID": "hd3304e7c8294642834f4fc242b470d8",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

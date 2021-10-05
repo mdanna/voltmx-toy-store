@@ -1,0 +1,47 @@
+{
+    "classname": "SearchResults",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "a5caaf65211b4e03906ca07431dd4b06",
+                    "originalPropertyKey": "data",
+                    "propertyIndex": 1,
+                    "propertyKey": "data",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Data",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "h6a434f847794fa7b784284f92aa18e5",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.toystore",
+    "version": "1.0.0"
+}

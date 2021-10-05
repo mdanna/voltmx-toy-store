@@ -36,7 +36,7 @@
     "canUpdateUI": true,
     "children": [
         "cmpDefaultHeader",
-        "flxContent",
+        "cmpSearchResults",
         "cmpFooterMenu"
     ],
     "containerweight": 100,

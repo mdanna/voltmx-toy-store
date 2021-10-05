@@ -72,6 +72,8 @@ define({
 	},
 
 	setFavorites(){
+		this.view.lblSeeAll.onTouchEnd = () => new kony.mvc.Navigation('frmFavorites').navigate('Favorites');
+		
 		this.view.flxFavoritesList.removeAll();
 		const products = appData.getFavorites(3);
 		products.forEach((product, index) => {

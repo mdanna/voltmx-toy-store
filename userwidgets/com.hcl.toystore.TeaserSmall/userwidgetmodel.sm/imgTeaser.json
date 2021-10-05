@@ -4,11 +4,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "44dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "3dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -30,7 +30,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "44dp"
+        "value": "100%"
     },
     "canUpdateUI": true,
     "centery": {
@@ -45,7 +45,7 @@
     "isvisible": true,
     "kuid": "d4b894e90cc849d49fd347d8d225e328",
     "name": "kony.ui.Image2",
-    "parent": "TeaserSmall",
+    "parent": "flxImage",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

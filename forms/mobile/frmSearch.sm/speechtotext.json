@@ -38,7 +38,7 @@
     "data": {},
     "id": "speechtotext",
     "info": null,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "ed52420a89b04d56929c9f8e031bbfef",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",

@@ -27,8 +27,9 @@ define({
 		};
 		
 		this.view.preShow = () => {
-			const product = this.navigationContext;
+			let product = this.navigationContext;
 			if(product){
+				product = typeof product === 'string' ? appData.products[product] : product;
 				this.view.imgProduct.src = product.img;
 				this.view.cmpLike.like = !!product.like;
 				this.view.lblCategories.text = product.categories.join(', ');

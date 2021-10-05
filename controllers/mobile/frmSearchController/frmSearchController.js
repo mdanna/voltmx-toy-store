@@ -30,6 +30,7 @@ define({
 			};
 			
 			this.view.flxMicrophone.onTouchEnd = () => {
+				this.view.speechtotext.isVisible = true;
 				this.view.speechtotext.speech();
 			};
 			
@@ -39,6 +40,7 @@ define({
 
 			
 			this.view.speechtotext.speechCallback = (text) => {
+				this.view.speechtotext.isVisible = false;
 				this.view.txtSearch.text = text;
 				this.view.txtSearch.setFocus(true);
 				this.moveUp();
@@ -80,6 +82,7 @@ define({
 				contentAlignment: constants.CONTENT_ALIGN_CENTER
 			}, {}, {});
 			label.text = category;
+			label.skin = 'sknDarkGrey100Light';
 			label.onTouchEnd = () => {
 				this.view.txtSearch.text = category;
 				this.view.txtSearch.setFocus(true);
@@ -98,7 +101,7 @@ define({
 		this.view.flxCancel.isVisible = true;
 		this.view.flxMicrophone.isVisible = false;
 		this.view.flxScanner.isVisible = false;
-		this.view.flxSearchKeywords.isVisible = false;
+		this.view.flxCategories.isVisible = false;
 		this.view.flxRecentKeywords.isVisible = true;
 	},
 	
@@ -110,14 +113,14 @@ define({
 		this.view.flxCancel.isVisible = false;
 		this.view.flxMicrophone.isVisible = true;
 		this.view.flxScanner.isVisible = true;
-		this.view.flxSearchKeywords.isVisible = true;
+		this.view.flxCategories.isVisible = true;
 		this.view.flxRecentKeywords.isVisible = false;
 		this.view.flxSearchResults.isVisible = false;
 	},
 	
 	search(keyword){
 		this.view.flxSearchResults.isVisible = true;
-		this.view.flxSearchKeywords.isVisible = false;
+		this.view.flxCategories.isVisible = false;
 		this.view.flxRecentKeywords.isVisible = false;
 	},
 	

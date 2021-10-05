@@ -23,7 +23,7 @@ const appData = {
 		},
 		'Movie Figure': {
 			subtitle: '',
-			categories: ['Action Figures, Movies'],
+			categories: ['Action Figures', 'Movies'],
 			price: '$9.99',
 			location: 'Aisle 3, Shelf B',
 			rating: 5,
@@ -103,7 +103,7 @@ const appData = {
 		},
 		'Dice': {
 			subtitle: '',
-			categories: ['Educational, Building Tools'],
+			categories: ['Educational', 'Building Tools'],
 			price: '$3.99',
 			location: 'Aisle 1, Shelf B',
 			rating: 3.8,
@@ -119,7 +119,7 @@ const appData = {
 		},
 		'Movie Robot Image': {
 			subtitle: 'Lowest Price',
-			categories: ['Action Figures, Movies'],
+			categories: ['Action Figures', 'Movies'],
 			price: '$9.99',
 			location: 'Aisle 3, Shelf B',
 			rating: 5,
@@ -183,7 +183,7 @@ const appData = {
 		},
 		'RC Dancing Robot': {
 			subtitle: '',
-			categories: ['Action Figures, Movies, Vehicles'],
+			categories: ['Action Figures', 'Movies', 'Vehicles'],
 			price: '$29.99',
 			location: 'Aisle 1, Shelf B',
 			rating: 5,
@@ -323,6 +323,11 @@ const appData = {
 		for(let key in appData.products){
 			if(key.toLowerCase().includes(text)){
 				ret.push({name: key, ...appData.products[key]});	
+			} else {
+				let categories = appData.products[key].categories.map((category) => category.toLowerCase());
+				if(categories.includes(text)){
+					ret.push({name: key, ...appData.products[key]});	
+				}
 			}
 		}
 		return ret;

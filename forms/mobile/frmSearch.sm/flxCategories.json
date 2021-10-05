@@ -47,7 +47,7 @@
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxSearchCategories",
+    "id": "flxCategories",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

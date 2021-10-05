@@ -9,16 +9,19 @@ define({
 		};
 		
 		this.view.preShow = () => {
-			this.view.flxContentList.removeAll();
-			this.view.flxContentIcon.removeAll();
 			const category = this.navigationContext;
-			const favorites = category ? appData.getProductsByCategory(category) : appData.getFavorties();
-			this.view.cmpDefaultHeader.title = category || 'Favorites';
-			this.setFavorites(favorites);
+			if(category){
+				this.view.cmpDefaultHeader.title = category;
+				const favorites = category !== 'Favorites' ? appData.getProductsByCategory(category) : appData.getFavorites();
+				this.setFavorites(favorites);
+			}
 		};
 	},
 	
 	setFavorites(favorites){
+		this.view.flxContentList.removeAll();
+		this.view.flxContentIcon.removeAll();
+		
 		let currRow = null;
 		
 		this.view.lblNumber.text = favorites.length;
@@ -37,6 +40,7 @@ define({
 			cmpTeaserSmall.title = favorite.name;
 			cmpTeaserSmall.price = favorite.price;
 			cmpTeaserSmall.like = favorite.like;
+			cmpTeaserSmall.onClickImage = () => new kony.mvc.Navigation('frmProduct').navigate(favorite.name);
 			this.view.flxContentList.add(cmpTeaserSmall);
 
 			//add to the icon view
@@ -60,6 +64,7 @@ define({
 			cmpTeaserBig.subtitle = favorite.subtitle;
 			cmpTeaserBig.price = favorite.price;
 			cmpTeaserBig.like = favorite.like;
+			cmpTeaserBig.onClickImage = () => new kony.mvc.Navigation('frmProduct').navigate(favorite.name);
 			currRow.add(cmpTeaserBig);
 		});
 		

@@ -29,7 +29,10 @@ define({
 		this.view.preShow = () => {
 			let product = this.navigationContext;
 			if(product){
-				product = typeof product === 'string' ? appData.products[product] : product;
+				if(typeof product === 'string'){
+					product = appData.products[product];
+					product.name = this.navigationContext;
+				}
 				this.view.imgProduct.src = product.img;
 				this.view.cmpLike.like = !!product.like;
 				this.view.cmpLike.context = product.name;

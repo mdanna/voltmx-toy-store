@@ -61,10 +61,13 @@ define({
 		};
 	},
 	
+	//this happens on the barcode scanner callback
 	onNavigate(text){
 		if(text){
-			this.moveUp();
 			this.view.txtSearch.text = text;
+			this.view.txtSearch.setFocus(true);
+			this.moveUp();
+			this.search(text, /*isRandom*/true);
 		}
 	},
 	
@@ -114,8 +117,8 @@ define({
 		this.view.cmpSearchResults.isVisible = false;
 	},
 	
-	search(keyword){
-		this.view.cmpSearchResults.data = appData.search(keyword);
+	search(keyword, isRandom){
+		this.view.cmpSearchResults.data = isRandom ? appData.randomSearch() : appData.search(keyword);
 		this.view.cmpSearchResults.isVisible = true;
 		this.view.flxCategories.isVisible = false;
 		this.view.flxRecentKeywords.isVisible = false;

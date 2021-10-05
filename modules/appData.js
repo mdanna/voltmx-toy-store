@@ -331,5 +331,16 @@ const appData = {
 			}
 		}
 		return ret;
+	},
+	
+	//returns a list with one random product
+	randomSearch(){
+		const keys = Object.keys(appData.products);
+		const name = keys[Math.floor(Math.random() * keys.length)];
+		const product = {
+			name,
+			...appData.products[name]
+		};
+		return [product];
 	}
 };

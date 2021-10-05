@@ -104,27 +104,6 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "geace04c1fec46a9a98068eff16848ec",
-                    "originalPropertyKey": "text",
-                    "propertyIndex": 4,
-                    "propertyKey": "info",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "look",
-                        "dependencyConditions": {},
-                        "dependentKeysKUIDs": null,
-                        "displayName": "Info",
-                        "isHiddenInTool": false,
-                        "srcWidget": "lblInfo",
-                        "type": "string",
-                        "uiRepresentation": "Label-Textbox",
-                        "wType": "Label"
-                    },
-                    "srcWgtKUID": "d5a7fe226b894047b77920c384866ae5"
-                },
-                {
-                    "access": "Enable",
-                    "group": "General",
                     "kuid": "ib0720166bcb4f8191d8533cdfdf2dbb",
                     "originalPropertyKey": "text",
                     "propertyIndex": 5,
@@ -142,6 +121,27 @@
                         "wType": "Label"
                     },
                     "srcWgtKUID": "ga9522001f8d4f25bb9bb5dcfd80df83"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ae165b26cc594def972273537596e0b4",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 7,
+                    "propertyKey": "subtitle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Subtitle",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblSubtitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d5a7fe226b894047b77920c384866ae5"
                 }
             ]
         },

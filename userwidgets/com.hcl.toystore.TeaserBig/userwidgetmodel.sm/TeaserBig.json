@@ -35,9 +35,9 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "imgTeaser",
-        "flxLabel",
-        "flxInfo",
+        "flxImage",
+        "flxTitle",
+        "flxSubtitle",
         "flxPrice"
     ],
     "clipbounds": true,

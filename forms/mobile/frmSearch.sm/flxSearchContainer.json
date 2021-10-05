@@ -38,7 +38,7 @@
         "flxSearch",
         "flxCancel",
         "flxMicrophone",
-        "flxCamera"
+        "flxScanner"
     ],
     "clipbounds": true,
     "containerweight": 100,

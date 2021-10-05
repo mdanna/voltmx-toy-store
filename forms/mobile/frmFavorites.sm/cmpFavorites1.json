@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "20dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -34,15 +34,10 @@
         "value": "170dp"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "27%"
-    },
     "containerweight": 0,
     "data": {
         "ide_onClick": "AS_UWI_h6fd406f82994cd4ac4d641205fee0cc",
         "image": "homefavoritesmovieimg.png",
-        "info": "",
         "like": true,
         "price": "$9.99",
         "title": "Movie Figure"

@@ -1,0 +1,120 @@
+{
+    "classname": "TeaserCategory",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Action Figures",
+                    "group": "General",
+                    "kuid": "e356a4502b754039ae50da6a650360e1",
+                    "originalPropertyKey": "category",
+                    "propertyIndex": 4,
+                    "propertyKey": "category",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Category",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "aaa963d0ada4427da173035f901b86f3",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d560af1196e04932b3ed7187b116f190",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "image",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Image",
+                        "isHiddenInTool": false,
+                        "srcWidget": "imgTeaser",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "a54cf0d33bd64a449a07c5b9d75f1b15"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g93987dbc6eb45688f8a35e1dd68017b",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "title",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Title",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fe1394945c8d461981717a8903cdf30b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cff26009da7f482db49561ffb30ea3ae",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "info",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Info",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblInfo",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c6e4ee463482472ea9b9a9df70560a5c"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.toystore",
+    "version": "1.0.0"
+}

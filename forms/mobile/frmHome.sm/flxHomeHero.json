@@ -36,8 +36,8 @@
     "canUpdateUI": true,
     "children": [
         "imgHomeHero",
-        "lblNewIn",
-        "lblRaceCityCar",
+        "lblSubtitle",
+        "lblHomeHero",
         "lblPrice"
     ],
     "clipbounds": true,

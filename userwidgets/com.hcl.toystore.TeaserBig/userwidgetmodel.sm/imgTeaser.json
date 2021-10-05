@@ -4,11 +4,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "150dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "10dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -26,11 +26,11 @@
     "_src_": "homenewrcrobotimg.png",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "150dp"
+        "value": "100%"
     },
     "canUpdateUI": true,
     "containerweight": 100,
@@ -41,7 +41,7 @@
     "isvisible": true,
     "kuid": "da197902b7354f37be2072037b8afcd7",
     "name": "kony.ui.Image2",
-    "parent": "TeaserBig",
+    "parent": "flxImage",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

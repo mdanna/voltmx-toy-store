@@ -36,7 +36,6 @@
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {
-        "info": "New Item",
         "like": true
     },
     "id": "cmpNewProduct1",

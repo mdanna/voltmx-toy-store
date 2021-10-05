@@ -32,6 +32,7 @@ define({
 				product = typeof product === 'string' ? appData.products[product] : product;
 				this.view.imgProduct.src = product.img;
 				this.view.cmpLike.like = !!product.like;
+				this.view.cmpLike.context = product.name;
 				this.view.lblCategories.text = product.categories.join(', ');
 				this.view.lblTitle.text = product.name;
 				this.view.lblPrice.text = product.price;

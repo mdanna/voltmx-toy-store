@@ -9,6 +9,7 @@ define(function() {
 					this.view.flxImage.onClick = () => {
 						this.onClickImage();
 					};
+					this.view.cmpLike.context = this.title;
 					this.INIT_DONE = true;
 				}
 			};

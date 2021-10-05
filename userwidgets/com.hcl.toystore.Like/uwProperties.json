@@ -35,6 +35,23 @@
                     "srcWgtKUID": "aefc51985b6e48959ee29d707d9b1179",
                     "type": "boolean",
                     "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "bfb86532c07945d1ae73d7a09fbea75a",
+                    "originalPropertyKey": "context",
+                    "propertyIndex": 5,
+                    "propertyKey": "context",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Context",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "aefc51985b6e48959ee29d707d9b1179",
+                    "type": "string",
+                    "value": ""
                 }
             ],
             "passthrough": []

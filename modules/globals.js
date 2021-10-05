@@ -5,5 +5,6 @@ const globals = {
 	MENU_ITEM_LOCATION: 'location',
 	MENU_ITEM_CART: 'cart',
 	ON_CLICK_KEYWORD: 'onClickKeyword',
-	ON_CLEAR_KEYWORD: 'onClearKeyword'
+	ON_CLEAR_KEYWORD: 'onClearKeyword',
+	ON_LIKE_CHANGED: 'onLikeChanged'
 };

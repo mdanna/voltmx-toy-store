@@ -13,7 +13,7 @@ define(function() {
 						new kony.mvc.Navigation('frmHome').navigate();
 					};
 					this.view.flxMenuCamera.onClick = () => {
-						//todo
+                      	new kony.mvc.Navigation('frmImageRecognitionCamera').navigate();                     
 					};
 					this.view.flxMenuSearch.onClick = () => {
 						new kony.mvc.Navigation('frmSearch').navigate();

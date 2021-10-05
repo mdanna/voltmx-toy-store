@@ -57,7 +57,7 @@
     "isvisible": true,
     "kuid": "d426855d64d240e1b73c2df5b276bf8a",
     "name": "kony.ui.Label",
-    "parent": "flxSearchKeywords",
+    "parent": "flxSearchCategories",
     "pf": "frmSearch",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

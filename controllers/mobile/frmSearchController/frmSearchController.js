@@ -2,6 +2,7 @@ define({
 
 	onViewCreated(){
 		this.view.init = () => {
+			this.setCategories();
 			
 			this.view.txtSearch.onTouchStart = () => {
 				if(!this.view.txtSearch.text){
@@ -48,15 +49,6 @@ define({
 				this.moveDown();
 			};
 			
-			for(let i = 1; i <= 8; i++){
-				this.view[`lblKeyword${i}`].onTouchEnd = () => {
-					this.view.txtSearch.text = this.view[`lblKeyword${i}`].text;
-					this.view.txtSearch.setFocus(true);
-					this.moveUp();
-					this.search(this.view.txtSearch.text);
-				};
-			}
-			
 			this.view.lblClearAll.onTouchEnd = () => {
 				this.view.segRecentKeywords.setData([]);
 			};
@@ -76,6 +68,26 @@ define({
 			this.moveUp();
 			this.view.txtSearch.text = text;
 		}
+	},
+	
+	setCategories(){
+		this.view.flxCategories.removeAll();
+		appData.categories.forEach((category, index) => {
+			const label = new kony.ui.Label({
+				id: `lblCategory${index}`,
+				width: '100%',
+				height: '30dp',
+				contentAlignment: constants.CONTENT_ALIGN_CENTER
+			}, {}, {});
+			label.text = category;
+			label.onTouchEnd = () => {
+				this.view.txtSearch.text = category;
+				this.view.txtSearch.setFocus(true);
+				this.moveUp();
+				this.search(category);
+			};
+			this.view.flxCategories.add(label);
+		});
 	},
 	
 	moveUp() {

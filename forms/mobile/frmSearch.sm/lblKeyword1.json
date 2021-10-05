@@ -25,7 +25,7 @@
     "_text_": "Action Figures",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -57,7 +57,7 @@
     "isvisible": true,
     "kuid": "g7c3e850c6e247989cde2d1e3e449146",
     "name": "kony.ui.Label",
-    "parent": "flxSearchKeywords",
+    "parent": "flxSearchCategories",
     "pf": "frmSearch",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

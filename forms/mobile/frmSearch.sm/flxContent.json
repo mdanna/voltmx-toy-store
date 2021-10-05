@@ -37,7 +37,7 @@
     "children": [
         "flxSearchContainer",
         "flxSearchResults",
-        "flxSearchKeywords",
+        "flxSearchCategories",
         "flxRecentKeywords"
     ],
     "clipbounds": true,

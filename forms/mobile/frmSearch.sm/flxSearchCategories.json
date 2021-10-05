@@ -25,7 +25,7 @@
     "_skin_": "s02e7949704441acba6e98f1b1e41c57",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "20dp"
     },
     "_width_": {
         "type": "string",
@@ -47,7 +47,7 @@
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxSearchKeywords",
+    "id": "flxSearchCategories",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

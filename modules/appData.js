@@ -117,7 +117,7 @@ const appData = {
 			isPopular: true,
 			isFavorite: false
 		},
-		'Movie Robot Image': {
+		'Movie Robot Figure': {
 			subtitle: 'Lowest Price',
 			categories: ['Action Figures', 'Movies'],
 			price: '$9.99',

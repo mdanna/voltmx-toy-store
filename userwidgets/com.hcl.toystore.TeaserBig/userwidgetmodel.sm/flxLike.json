@@ -47,7 +47,7 @@
     "kuid": "c73570dc260147deb9e948167f09d284",
     "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxLabel",
+    "parent": "flxTitle",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

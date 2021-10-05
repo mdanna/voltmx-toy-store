@@ -21,11 +21,11 @@
         0,
         0
     ],
-    "_skin_": "s66f60216c724721a6c5cb06ec4a0a85",
-    "_text_": "New In",
+    "_skin_": "s04362eab3934407b496f7591fe3849f",
+    "_text_": "Race Car City Blocks Set",
     "_top_": {
         "type": "string",
-        "value": "210dp"
+        "value": "240dp"
     },
     "_width_": {
         "type": "ref",
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblNewIn",
+    "id": "lblHomeHero",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,7 +55,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "j97c884a285543a68ec649cc5ed27b40",
+    "kuid": "aae99b41c37b423ea0e5dc6a1004bcbc",
     "name": "kony.ui.Label",
     "parent": "flxHomeHero",
     "pf": "frmHome",

@@ -125,18 +125,18 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "cc61b8d505d549e6ab9f5c18f78d7075",
+                    "kuid": "ae165b26cc594def972273537596e0b4",
                     "originalPropertyKey": "text",
                     "propertyIndex": 7,
-                    "propertyKey": "info",
+                    "propertyKey": "subtitle",
                     "pw": {
                         "access": "readwrite",
                         "category": "look",
                         "dependencyConditions": {},
                         "dependentKeysKUIDs": null,
-                        "displayName": "Info",
+                        "displayName": "Subtitle",
                         "isHiddenInTool": false,
-                        "srcWidget": "lblInfo",
+                        "srcWidget": "lblSubtitle",
                         "type": "string",
                         "uiRepresentation": "Label-Textbox",
                         "wType": "Label"

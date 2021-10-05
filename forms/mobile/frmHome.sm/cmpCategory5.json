@@ -36,9 +36,10 @@
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {
+        "category": "Educational",
         "image": "homecateducationimg.png",
         "info": "All 156",
-        "title": "Education"
+        "title": "Educational"
     },
     "id": "cmpCategory5",
     "info": null,

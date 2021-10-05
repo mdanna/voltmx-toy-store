@@ -4,6 +4,39 @@ const appData = {
 	],
 	
 	products: {
+		'Race Car City Blocks Set': {
+			subtitle: 'New In',
+			categories: ['Building Tools'],
+			price: '$24.99',
+			location: 'Aisle 2, Shelf B',
+			rating: 5,
+			availability: '25',
+			numReviews: 2,
+			img: 'homeheroimg.png',
+			movie: '',
+			movieTitle: '',
+			like: false,
+			isNew: false,
+			isPopular: false,
+			isFavorite: false,
+			isHomeHero: true,
+		},
+		'Movie Figure': {
+			subtitle: '',
+			categories: ['Action Figures, Movies'],
+			price: '$9.99',
+			location: 'Aisle 3, Shelf B',
+			rating: 5,
+			availability: '48',
+			numReviews: 7,
+			img: 'productmoviefigure.png',
+			movie: '',
+			movieTitle: '',
+			like: true,
+			isNew: false,
+			isPopular: false,
+			isFavorite: true
+		},
 		'Aviator Plush Bear': {
 			subtitle: '10% off',
 			categories: ['Plush Toys'],
@@ -84,22 +117,6 @@ const appData = {
 			isPopular: true,
 			isFavorite: false
 		},
-		'Movie Figure': {
-			subtitle: '',
-			categories: ['Action Figures, Movies'],
-			price: '$9.99',
-			location: 'Aisle 3, Shelf B',
-			rating: 5,
-			availability: '48',
-			numReviews: 7,
-			img: 'productmoviefigure.png',
-			movie: '',
-			movieTitle: '',
-			like: true,
-			isNew: false,
-			isPopular: false,
-			isFavorite: true
-		},
 		'Movie Robot Image': {
 			subtitle: 'Lowest Price',
 			categories: ['Action Figures, Movies'],
@@ -114,7 +131,7 @@ const appData = {
 			like: true,
 			isNew: false,
 			isPopular: false,
-			isFavorite: false
+			isFavorite: true
 		},
 		'Colored Pencil Set': {
 			subtitle: '',
@@ -210,7 +227,7 @@ const appData = {
 			like: true,
 			isNew: true,
 			isPopular: false,
-			isFavorite: false
+			isFavorite: true
 		},
 		'Superhero Figure': {
 			subtitle: '20% off',
@@ -226,7 +243,7 @@ const appData = {
 			like: true,
 			isNew: false,
 			isPopular: false,
-			isFavorite: false
+			isFavorite: true
 		},
 		'Tree Alien Figure': {
 			subtitle: 'Lowest Price',
@@ -236,7 +253,7 @@ const appData = {
 			rating: 3.4,
 			availability: '5',
 			numReviews: 6,
-			img: 'productspacetroopersimg.png',
+			img: 'producttreealienimg.png',
 			movie: '',
 			movieTitle: '',
 			like: true,
@@ -244,6 +261,16 @@ const appData = {
 			isPopular: false,
 			isFavorite: false
 		}
+	},
+	
+	getHomeHeroProduct() {
+		let homeHeroProduct = null;
+		for(let key in appData.products){
+			if(appData.products[key].isHomeHero){
+				homeHeroProduct = {name: key, ...appData.products[key]};
+			}
+		}
+		return homeHeroProduct;
 	},
 	
 	getNewProducts() {
@@ -255,7 +282,6 @@ const appData = {
 		}
 		return newProducts;
 	},
-	
 	getPopularProducts() {
 		let popularProducts = [];
 		for(let key in appData.products){
@@ -266,11 +292,16 @@ const appData = {
 		return popularProducts;
 	},
 	
-	getFavorites() {
+	getFavorites(maxNum) {
 		let favoriteProducts = [];
+		let count = 0;
 		for(let key in appData.products){
 			if(appData.products[key].isFavorite){
-				favoriteProducts.push({name: key, ...appData.products[key]});
+				if(!maxNum || ++count <= maxNum){
+					favoriteProducts.push({name: key, ...appData.products[key]});
+				} else {
+					break;
+				}
 			}
 		}
 		return favoriteProducts;

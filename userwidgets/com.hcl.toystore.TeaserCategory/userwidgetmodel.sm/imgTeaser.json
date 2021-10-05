@@ -41,7 +41,7 @@
     "isvisible": true,
     "kuid": "a54cf0d33bd64a449a07c5b9d75f1b15",
     "name": "kony.ui.Image2",
-    "parent": "TeaserSmallCircle",
+    "parent": "TeaserCategory",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

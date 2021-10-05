@@ -36,6 +36,7 @@
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {
+        "category": "Building Tools",
         "image": "homecatblocksimg.png",
         "info": "All 266",
         "title": "BlocksSets"

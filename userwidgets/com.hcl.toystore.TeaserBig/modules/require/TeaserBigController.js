@@ -12,9 +12,6 @@ define(function() {
 					this.INIT_DONE = true;
 				}
 			};
-			this.view.postShow = () => {
-				this.view.flxInfo.isVisible = !!this.view.lblInfo.text;
-			};
 		},
 		//Logic for getters/setters of custom properties
 		initGettersSetters() {

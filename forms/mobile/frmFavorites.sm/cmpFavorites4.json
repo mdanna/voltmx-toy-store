@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "20dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -34,10 +34,6 @@
         "value": "170dp"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "73%"
-    },
     "containerweight": 0,
     "data": {
         "image": "favoritesprincessimg.png",

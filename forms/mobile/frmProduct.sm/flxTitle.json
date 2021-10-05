@@ -1,8 +1,8 @@
 {
     "DNDConfig": null,
     "_height_": {
-        "type": "string",
-        "value": "50dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -32,7 +32,7 @@
         "value": "84%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
         "lblTitle",
@@ -47,6 +47,10 @@
     "isvisible": true,
     "kuid": "j137695228d54fb28f66a6ff8648d1d0",
     "layouttype": 2,
+    "minheight": {
+        "type": "string",
+        "value": "50dp"
+    },
     "name": "kony.ui.FlexContainer",
     "parent": "flxContent",
     "pf": "frmProduct",

@@ -39,7 +39,6 @@
     "children": [
         "flxRow1",
         "flxRow2",
-        "flxRow3",
         "flxSpacer"
     ],
     "clipbounds": true,

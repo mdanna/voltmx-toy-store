@@ -36,8 +36,8 @@
     "canUpdateUI": true,
     "children": [
         "flxImage",
-        "flxLabel",
-        "flxInfo",
+        "flxTitle",
+        "flxSubtitle",
         "flxPrice"
     ],
     "clipbounds": true,

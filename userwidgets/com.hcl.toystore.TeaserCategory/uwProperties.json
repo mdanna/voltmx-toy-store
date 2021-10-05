@@ -1,5 +1,5 @@
 {
-    "classname": "TeaserSmallCircle",
+    "classname": "TeaserCategory",
     "definitions": {
         "apis": {
             "custom": [],
@@ -16,7 +16,25 @@
             "widgets": []
         },
         "properties": {
-            "custom": [],
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Action Figures",
+                    "group": "General",
+                    "kuid": "e356a4502b754039ae50da6a650360e1",
+                    "originalPropertyKey": "category",
+                    "propertyIndex": 4,
+                    "propertyKey": "category",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Category",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "aaa963d0ada4427da173035f901b86f3",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
             "passthrough": [
                 {
                     "access": "Enable",

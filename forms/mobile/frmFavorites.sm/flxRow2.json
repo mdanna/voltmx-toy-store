@@ -29,11 +29,15 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "340dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
         "cmpFavorites3",
         "cmpFavorites4"
@@ -46,7 +50,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "i02562841d9048199a01eb4246b8c59d",
-    "layouttype": 2,
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
     "parent": "flxContentIcon",
     "pf": "frmFavorites",

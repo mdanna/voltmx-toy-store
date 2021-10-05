@@ -36,6 +36,7 @@
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {
+        "category": "Movies",
         "image": "homecatmoviesimg.png",
         "info": "All 1978",
         "title": "Movies"

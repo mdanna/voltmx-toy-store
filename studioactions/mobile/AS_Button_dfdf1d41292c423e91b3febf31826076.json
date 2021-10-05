@@ -1,0 +1,28 @@
+{
+    "AS_Button_dfdf1d41292c423e91b3febf31826076": {
+        "id": "AS_Button_dfdf1d41292c423e91b3febf31826076",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmImageRecognitionCamera",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a51e40fdfbda4f57ab0d20a1ede52a59"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__gcee8a27926148b69e18abff9843874a",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmProduct",
+            "formKUID": "hd3304e7c8294642834f4fc242b470d8",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

@@ -16,6 +16,12 @@ define({
 		this.view.lblHomeHero.text = homeHeroProduct.name;
 		this.view.lblPrice.text = homeHeroProduct.price;
 		this.view.flxHomeHero.onClick = () => new kony.mvc.Navigation('frmProduct').navigate(homeHeroProduct.name);	
+	
+		this.view.flxHomeHeroImg.doLayout = () => {
+			const size = (kony.os.deviceInfo().screenWidth * 0.9) + 'dp';
+			this.view.flxHomeHeroImg.height = size;
+			this.view.flxHomeHeroImg.width = size;
+		};
 	},
 
 	setNewProducts(){

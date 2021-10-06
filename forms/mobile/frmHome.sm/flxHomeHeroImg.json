@@ -1,10 +1,8 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
-    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "350dp"
     },
     "_left_": {
         "type": "string",
@@ -16,42 +14,50 @@
         0,
         0
     ],
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_skin_": "scd3a87ccc5b4cfc9e965fae732833e8",
-    "_src_": "racecarblocks.png",
+    "_percent_": true,
+    "_skin_": "sb748efcf5c74f2c87f2b970eb11d96d",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "350dp"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
         "value": "50%"
     },
+    "children": [
+        "imgHomeHero"
+    ],
+    "clipbounds": true,
     "containerweight": 100,
-    "id": "imgHomeHero",
-    "imagescalemode": 0,
+    "enablescrolling": true,
+    "id": "flxHomeHeroImg",
     "info": null,
-    "invokedProperty": "src",
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "afb6152f113d4a91bcf840679c242b53",
-    "name": "kony.ui.Image2",
-    "parent": "flxHomeHeroImg",
+    "kuid": "c19d29b24a96438a805498d8d79860f8",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxHomeHero",
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "srcType": 1,
-    "wType": "Image",
-    "widgetalignment": 5,
-    "zindex": 1
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
 }

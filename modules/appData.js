@@ -12,7 +12,7 @@ const appData = {
 			rating: 5,
 			availability: '25',
 			numReviews: 2,
-			img: 'homeheroimg.png',
+			img: 'racecarblocks.png',
 			movie: '',
 			movieTitle: '',
 			like: false,

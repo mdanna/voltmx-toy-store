@@ -35,7 +35,7 @@
     "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
-        "imgHomeHero",
+        "flxHomeHeroImg",
         "lblSubtitle",
         "lblHomeHero",
         "lblPrice"

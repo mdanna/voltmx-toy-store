@@ -5,7 +5,7 @@ define(function() {
 
 		constructor: function(baseConfig, layoutConfig, pspConfig) {
 			
-			mEventManager.subscribe(globals.ON_LIKE_CHANGED, ({context, value, id}) => {
+			mEventManager.subscribe(globals.ON_LIKE_CHANGED, ({context, value}) => {
 				if(context === this.context){
 					this.view.lblLikeOn.isVisible = !!value;
 					this.view.lblLikeOff.isVisible = !value;

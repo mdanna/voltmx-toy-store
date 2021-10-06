@@ -15,7 +15,7 @@ define({
 		this.view.lblSubtitle.text = homeHeroProduct.subtitle;
 		this.view.lblHomeHero.text = homeHeroProduct.name;
 		this.view.lblPrice.text = homeHeroProduct.price;
-		this.view.flxHomeHero.onClick = () => new kony.mvc.Navigation('frmProduct').navigate(homeHeroProduct);	
+		this.view.flxHomeHero.onClick = () => new kony.mvc.Navigation('frmProduct').navigate(homeHeroProduct.name);	
 	},
 
 	setNewProducts(){
@@ -33,7 +33,7 @@ define({
 			component.price = product.price;
 			component.like = product.like;
 			component.onClickImage = () => {
-				new kony.mvc.Navigation('frmProduct').navigate(product);
+				new kony.mvc.Navigation('frmProduct').navigate(product.name);
 			};
 			this.view.flxNewProductsList.add(component);
 		});
@@ -65,7 +65,7 @@ define({
 			component.price = product.price;
 			component.like = product.like;
 			component.onClickImage = () => {
-				new kony.mvc.Navigation('frmProduct').navigate(product);
+				new kony.mvc.Navigation('frmProduct').navigate(product.name);
 			};
 			currContainer.add(component);
 		});
@@ -89,7 +89,7 @@ define({
 			component.price = product.price;
 			component.like = product.like;
 			component.onClickImage = () => {
-				new kony.mvc.Navigation('frmProduct').navigate(product);
+				new kony.mvc.Navigation('frmProduct').navigate(product.name);
 			};
 			this.view.flxFavoritesList.add(component);
 		});

@@ -4,7 +4,7 @@ const appData = {
 	],
 	
 	products: {
-		'Race Car City Blocks Set': {
+		'Race Car Blocks': {
 			subtitle: 'New In',
 			categories: ['Building Tools'],
 			price: '$24.99',
@@ -22,6 +22,7 @@ const appData = {
 			isHomeHero: true,
 		},
 		'Movie Figure': {
+			irName: 'Minion',
 			subtitle: '',
 			categories: ['Action Figures', 'Movies'],
 			price: '$9.99',
@@ -38,6 +39,7 @@ const appData = {
 			isFavorite: true
 		},
 		'Aviator Plush Bear': {
+			irName: 'TeddyBear',
 			subtitle: '10% off',
 			categories: ['Plush Toys'],
 			price: '$9.99',
@@ -54,6 +56,7 @@ const appData = {
 			isFavorite: false
 		},
 		'Car': {
+			irName: 'RedCar',
 			subtitle: 'Sale',
 			categories: ['Vehicles'],
 			price: '$3.99',
@@ -86,6 +89,7 @@ const appData = {
 			isFavorite: false
 		},
 		'Puzzle Cube': {
+			irName: 'RubikCube',
 			subtitle: 'Sale',
 			categories: ['Educational'],
 			price: '$9.99',
@@ -118,6 +122,7 @@ const appData = {
 			isFavorite: false
 		},
 		'Movie Robot Figure': {
+			irName: 'Walle',
 			subtitle: 'Lowest Price',
 			categories: ['Action Figures', 'Movies'],
 			price: '$9.99',
@@ -134,6 +139,7 @@ const appData = {
 			isFavorite: true
 		},
 		'Colored Pencil Set': {
+			irName: 'Pencils',
 			subtitle: '',
 			categories: ['Educational'],
 			price: '$9.99',
@@ -150,6 +156,7 @@ const appData = {
 			isFavorite: false
 		},
 		'Princess Figure': {
+			irName: 'Princess',
 			subtitle: 'Lowest Price',
 			categories: ['Action Figures'],
 			price: '$12.99',
@@ -182,6 +189,7 @@ const appData = {
 			isFavorite: false
 		},
 		'RC Dancing Robot': {
+			irName: 'RCRobot',
 			subtitle: '',
 			categories: ['Action Figures'],
 			price: '$29.99',
@@ -198,6 +206,7 @@ const appData = {
 			isFavorite: true
 		},
 		'Retro Die Cast Car': {
+			irName: 'YellowCar',
 			subtitle: '',
 			categories: ['Vehicles'],
 			price: '$8.99',
@@ -214,6 +223,7 @@ const appData = {
 			isFavorite: false
 		},
 		'Space Troopers': {
+			irName: 'SpaceTrooperLego',
 			subtitle: '',
 			categories: ['Movies', 'Action Figures'],
 			price: '$8.99',
@@ -230,6 +240,7 @@ const appData = {
 			isFavorite: true
 		},
 		'Superhero Figure': {
+			irName: 'SupermanFigure',
 			subtitle: '20% off',
 			categories: ['Action Figures'],
 			price: '$9.99',
@@ -246,6 +257,7 @@ const appData = {
 			isFavorite: true
 		},
 		'Tree Alien Figure': {
+			irName: 'Groot',
 			subtitle: 'Lowest Price',
 			categories: ['Movies', 'Cartoons', 'Action Figures'],
 			price: '$7.99',
@@ -261,6 +273,15 @@ const appData = {
 			isPopular: false,
 			isFavorite: false
 		}
+	},
+	
+	getProductNameByIRName(irName){
+		for(let key in appData.products){
+			if(appData.products[key].irName === irName){
+				return key;
+			}
+		}
+		return null;
 	},
 	
 	getHomeHeroProduct() {

@@ -4,21 +4,14 @@ define(function() {
 		INIT_DONE: false,
 
 		constructor: function(baseConfig, layoutConfig, pspConfig) {
-			
-			mEventManager.subscribe(globals.ON_LIKE_CHANGED, ({context, value}) => {
-				if(context === this.context){
-					this.view.lblLikeOn.isVisible = !!value;
-					this.view.lblLikeOff.isVisible = !value;
-				}	
-			});
-			
+
 			this.view.preShow = () => {
 				if(!this.INIT_DONE){
-					
+
 					this.like = !!appData.products[this.context].like;
 					this.view.lblLikeOn.isVisible = this.like;
 					this.view.lblLikeOff.isVisible = !this.like;
-					
+
 					this.view.flxLike.onClick = () => {
 						this.like = !this.like;
 						appData.products[this.context].like = this.like;
@@ -28,7 +21,14 @@ define(function() {
 						});
 						this.onChange(this.like);					
 					};
-					
+
+					mEventManager.subscribe(globals.ON_LIKE_CHANGED, ({context, value}) => {
+						if(this.view && context === this.context){
+							this.view.lblLikeOn.isVisible = !!value;
+							this.view.lblLikeOff.isVisible = !value;
+						}	
+					});
+
 					this.INIT_DONE = true;
 				}
 			};
@@ -48,7 +48,7 @@ define(function() {
 				this._context = value;
 			});
 		},
-		
+
 		onChange(value){}
 	};
 });

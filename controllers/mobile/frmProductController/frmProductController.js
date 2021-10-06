@@ -27,11 +27,13 @@ define({
 		};
 		
 		this.view.preShow = () => {
-			let product = this.navigationContext;
+			let product = this.navigationContext || 'Movie Figure';
 			if(product){
 				if(typeof product === 'string'){
-					product = appData.products[product];
-					product.name = this.navigationContext;
+					product = {
+						name: product,
+						...appData.products[product]
+					};
 				}
 				this.view.imgProduct.src = product.img;
 				this.view.cmpLike.context = product.name;

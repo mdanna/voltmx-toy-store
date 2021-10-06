@@ -30,25 +30,7 @@
             "widgets": []
         },
         "properties": {
-            "custom": [
-                {
-                    "access": "Write",
-                    "defaultValue": false,
-                    "group": "General",
-                    "kuid": "e82ead9155604096880b250d2c801dc9",
-                    "originalPropertyKey": "like",
-                    "propertyIndex": 6,
-                    "propertyKey": "like",
-                    "pw": {
-                        "dependencyConditions": {},
-                        "displayName": "Like",
-                        "uiRepresentation": "Label-Radiobuttongroup"
-                    },
-                    "srcWgtKUID": "a4dc0d90a8fc4c78a2e0d7ec49bed199",
-                    "type": "boolean",
-                    "value": "true/false"
-                }
-            ],
+            "custom": [],
             "passthrough": [
                 {
                     "access": "Enable",
@@ -142,6 +124,28 @@
                         "wType": "Label"
                     },
                     "srcWgtKUID": "d5a7fe226b894047b77920c384866ae5"
+                },
+                {
+                    "access": "Enable",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "b11226d7fcf240b5bd57ad0b7e8da97d",
+                    "originalPropertyKey": "like",
+                    "propertyIndex": 8,
+                    "propertyKey": "like",
+                    "pw": {
+                        "access": "readwrite",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Like",
+                        "isHiddenInTool": false,
+                        "srcWidget": "cmpLike",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "b8d0674d64924958ba602b737e5a7a6a",
+                    "type": "boolean",
+                    "value": "true/false"
                 }
             ]
         },

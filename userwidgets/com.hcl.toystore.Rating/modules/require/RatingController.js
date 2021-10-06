@@ -2,7 +2,7 @@ define(function() {
 
 	return {
 		constructor(baseConfig, layoutConfig, pspConfig) {
-			
+			this.view.preShow = () => this.setRating();
 		},
 		//Logic for getters/setters of custom properties
 		initGettersSetters() {
@@ -14,7 +14,6 @@ define(function() {
 					this._rating = 0;
 				} else {
 					this._rating = value;
-					this.setRating();
 				}
       });
     },

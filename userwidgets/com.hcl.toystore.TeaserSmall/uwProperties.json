@@ -30,25 +30,7 @@
             "widgets": []
         },
         "properties": {
-            "custom": [
-                {
-                    "access": "Write",
-                    "defaultValue": false,
-                    "group": "General",
-                    "kuid": "f202cc9605984bec8755c7f809fc1edb",
-                    "originalPropertyKey": "like",
-                    "propertyIndex": 4,
-                    "propertyKey": "like",
-                    "pw": {
-                        "dependencyConditions": {},
-                        "displayName": "Like",
-                        "uiRepresentation": "Label-Radiobuttongroup"
-                    },
-                    "srcWgtKUID": "f741ae717c564acf881e8dc8e6dababd",
-                    "type": "boolean",
-                    "value": "true/false"
-                }
-            ],
+            "custom": [],
             "passthrough": [
                 {
                     "access": "Enable",
@@ -121,6 +103,28 @@
                         "wType": "Label"
                     },
                     "srcWgtKUID": "dfb6e9e385f44babba176fdddb2286ab"
+                },
+                {
+                    "access": "Enable",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "fec10f5be11f49c3a58315f290d801e5",
+                    "originalPropertyKey": "like",
+                    "propertyIndex": 4,
+                    "propertyKey": "like",
+                    "pw": {
+                        "access": "readwrite",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Like",
+                        "isHiddenInTool": false,
+                        "srcWidget": "cmpLike",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "UserWidgetInstance"
+                    },
+                    "srcWgtKUID": "a9ab524691a8414cb51ef4529235ae4a",
+                    "type": "boolean",
+                    "value": "true/false"
                 }
             ]
         },

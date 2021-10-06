@@ -37,7 +37,6 @@
     "containerweight": 0,
     "data": {
         "image": "homepopularrainbowimg.png",
-        "like": true,
         "price": "$6.99",
         "title": "Rainbow"
     },

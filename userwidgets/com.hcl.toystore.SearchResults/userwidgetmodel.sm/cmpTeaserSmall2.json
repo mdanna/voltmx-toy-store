@@ -37,7 +37,6 @@
     "containerweight": 0,
     "data": {
         "image": "homefavoritescubeimg.png",
-        "like": true,
         "price": "$5.99",
         "title": "Puzzle Cube"
     },

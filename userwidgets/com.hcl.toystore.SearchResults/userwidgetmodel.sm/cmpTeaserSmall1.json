@@ -37,7 +37,6 @@
     "containerweight": 0,
     "data": {
         "image": "homefavoritesmovieimg.png",
-        "like": true,
         "price": "$9.99",
         "title": "Movie Figure"
     },

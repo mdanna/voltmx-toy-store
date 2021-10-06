@@ -35,9 +35,7 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "data": {
-        "like": true
-    },
+    "data": {},
     "id": "cmpNewProduct1",
     "info": null,
     "iscustomlayout": false,

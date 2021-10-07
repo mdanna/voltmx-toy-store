@@ -5,7 +5,7 @@ define(function() {
 		
 		constructor(baseConfig, layoutConfig, pspConfig) {
 			if(!this.INIT_DONE){
-				this.view.preShow = () => {
+				this.view.postShow = () => {
 					this.view.flxMinus.onClick = () => {
 						const value = parseInt(this.view.lblCount.text);
 						if(value > 1){

@@ -2,7 +2,7 @@ define(function() {
 
 	return {
 		constructor(baseConfig, layoutConfig, pspConfig) {
-			this.view.preShow = () => this.setRating();
+			this.view.postShow = () => this.setRating();
 		},
 		//Logic for getters/setters of custom properties
 		initGettersSetters() {
@@ -23,7 +23,7 @@ define(function() {
 			const num = Math.ceil(this.rating) - this.rating <= this.rating - Math.floor(this.rating) ? 
 						Math.ceil(this.rating) : Math.floor(this.rating);
 			for(i = 1; i <=5 ; i++) {
-					this.view['lblStarSelected' + i].isVisible = num >= i;
+				this.view['lblStarSelected' + i].isVisible = num >= i;
 			}
 		}
 	};

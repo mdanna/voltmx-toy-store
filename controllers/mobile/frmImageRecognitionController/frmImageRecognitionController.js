@@ -10,7 +10,7 @@ define({
 		this.view.init = () => {
 			
 			this.view.flxBack.onClick = () => {
-				new kony.mvc.Navigation(kony.application.getPreviousForm().id).navigate();
+				new kony.mvc.Navigation('frmHome').navigate();
 			};
 			
 			var mlCamera = new kony.ui.MLCamera({

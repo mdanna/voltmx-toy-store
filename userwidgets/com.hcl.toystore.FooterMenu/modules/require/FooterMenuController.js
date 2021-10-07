@@ -6,7 +6,7 @@ define(function() {
 		INIT_DONE: false,
 
 		constructor(baseConfig, layoutConfig, pspConfig) {
-			this.view.preShow = () => {
+			this.view.postShow = () => {
 				this.selectItem(this.itemSelected);
 				if(!this.INIT_DONE){
 					this.view.flxMenuHome.onClick = () => {

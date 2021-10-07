@@ -1,5 +1,6 @@
 define({ 
 
+  
   //Type your controller code here 
   imageClassifier:null,
   onFormInit:function(){
@@ -23,9 +24,22 @@ define({
     this.view.flxRoot.add(mlCamera);
 
   },
+  onViewCreated(){
+    this.view.btnRoundFloat.onClick = this.bind(this).gotoProductPage();
+  },
   onNavigate:function(){
     this.setFormProperties();
     this.setFormLayout();
+  },
+  gotoProductPage:function(){
+    const irName = this.view.lblObjectType.text;
+    alert('irName:' + irName);
+    const productName = appData.getProductNameFromIRName(irName);
+    if(productName !== null){
+    	new kony.mvc.Navigation('frmProduct').navigate(productName);
+    } else {
+    	alert('Product not found.');
+    }
   },
   onFormPostShow:function(){
     var config = {};
@@ -35,7 +49,7 @@ define({
     config.modelPathSource = kony.ml.MODEL_SOURCE_TYPE_BUNDLED;
     if(kony.os.deviceInfo().name.toLowerCase()=='iphone'){
       config["modelInputSize"] = {"width": 299 ,"height": 299};
-      config.modelPath =  "RubikCubeClassifier";
+      config.modelPath =  "06Oct2021Classifier12New2";
     }else if(kony.os.deviceInfo().name.toLowerCase()=='android'){
       config.modelPath =  "model";
       config.labelPath = "label";

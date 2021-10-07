@@ -20,7 +20,7 @@ define({
 			this.view.btnRoundFloat.onClick = () => {
 				const irName = this.view.lblObjectType.text;
 				alert('irName:' + irName);
-				const productName = appData.getProductNameFromIRName(irName);
+				const productName = appData.getProductNameByIRName(irName);
 				if(productName !== null){
 					new kony.mvc.Navigation('frmProduct').navigate(productName);
 				} else {

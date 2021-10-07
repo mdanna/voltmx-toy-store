@@ -89,7 +89,7 @@ const appData = {
 			isFavorite: false
 		},
 		'Puzzle Cube': {
-			irName: 'RubikCube',
+			irName: 'rubikcube',
 			subtitle: 'Sale',
 			categories: ['Educational'],
 			price: '$9.99',

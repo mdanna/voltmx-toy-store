@@ -43,7 +43,7 @@ define({
 		config.modelPathSource = kony.ml.MODEL_SOURCE_TYPE_BUNDLED;
 		if(kony.os.deviceInfo().name.toLowerCase() === 'iphone'){
 			config["modelInputSize"] = {"width": 299 ,"height": 299};
-			config.modelPath =  "06Oct2021Classifier12New2";
+			config.modelPath =  "RubikCubeClassifier";
 		}else if(kony.os.deviceInfo().name.toLowerCase() === 'android'){
 			config.modelPath =  "model";
 			config.labelPath = "label";

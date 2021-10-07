@@ -1,12 +1,8 @@
 {
     "DNDConfig": null,
-    "_bottom_": {
-        "type": "string",
-        "value": "0%"
-    },
     "_height_": {
         "type": "string",
-        "value": "60%"
+        "value": "45%"
     },
     "_margin_": [
         0,
@@ -23,13 +19,9 @@
     ],
     "_percent_": true,
     "_skin_": "s02e7949704441acba6e98f1b1e41c57",
-    "_top_": {
-        "type": "string",
-        "value": "10%"
-    },
     "_width_": {
         "type": "string",
-        "value": "25%"
+        "value": "90%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -38,20 +30,23 @@
         "type": "string",
         "value": "50%"
     },
+    "centery": {
+        "type": "string",
+        "value": "45%"
+    },
     "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxImgCapture",
-    "ide_onClick": "AS_FlexContainer_h89fa3b8a05443738036f8b51153e0ea",
+    "id": "flxCamera",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ibec8765157c4f54bff8a23703ab0ab1",
+    "kuid": "f3afd095a9e344459108245168962c4c",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxCaptureRoot",
-    "pf": "frmImageRecognitionCamera",
+    "parent": "flxRoot",
+    "pf": "frmImageRecognition",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

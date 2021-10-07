@@ -3,7 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "1dp"
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         1,
@@ -17,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "sc5a87010a8d4d8da4ce5707ab97d378",
-    "_text_": "",
+    "_skin_": "s64bf1db31d6402b87c4cac65b282c11",
+    "_text_": "b",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "85.06%"
+        "value": "100%"
     },
     "_wrapping_": 2,
     "android": {
@@ -35,13 +39,9 @@
         }
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "lblSeparator2",
+    "contentalignment": 5,
+    "id": "lblBack",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "hb446226750b4ada8f0e60bf6df2643c",
+    "kuid": "a8de26ac9c9f44fa942569c78903246b",
     "name": "kony.ui.Label",
-    "parent": "flxAppInfo",
-    "pf": "frmImageRecognitionCamera",
+    "parent": "flxBack",
+    "pf": "frmImageRecognition",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

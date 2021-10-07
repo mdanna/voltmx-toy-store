@@ -1,12 +1,12 @@
 {
     "DNDConfig": null,
-    "_bottom_": {
-        "type": "string",
-        "value": "2.59%"
-    },
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "80dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -23,33 +23,32 @@
     ],
     "_percent_": true,
     "_skin_": "s02e7949704441acba6e98f1b1e41c57",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "40dp"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "imgClose"
+        "flxBack"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxCloseAppInfo",
-    "ide_onClick": "AS_FlexContainer_a792af38ed1140eda671b08d84c19c83",
+    "id": "flxControls",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": false,
-    "kuid": "a48c9b16a652492eaea7dfb99850f1aa",
+    "isvisible": true,
+    "kuid": "fc4adad7e25c4a28a67f1d64f4682379",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxRoot",
-    "pf": "frmImageRecognitionCamera",
+    "pf": "frmImageRecognition",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
@@ -57,5 +56,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 5
+    "zindex": 4
 }

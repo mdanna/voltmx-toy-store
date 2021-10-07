@@ -5,6 +5,10 @@
         "type": "ref",
         "value": "preferred"
     },
+    "_left_": {
+        "type": "string",
+        "value": "6.40%"
+    },
     "_margin_": [
         1,
         1,
@@ -17,12 +21,8 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "6.40%"
-    },
     "_skin_": "s81b24137651468bb3c0096bf427c8b5",
-    "_text_": "64.4 %",
+    "_text_": "Minion",
     "_top_": {
         "type": "string",
         "value": "50%"
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblConfidanceVal",
+    "id": "lblObjectType",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d295e614ce284cbf887beeeabd7fcaa7",
+    "kuid": "je7de31eada94a33aafcec3370ea0e4c",
     "name": "kony.ui.Label",
     "parent": "flxResultBox",
-    "pf": "frmImageRecognitionCamera",
+    "pf": "frmImageRecognition",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

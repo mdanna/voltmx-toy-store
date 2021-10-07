@@ -2,8 +2,8 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "string",
-        "value": "15dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_margin_": [
         1,
@@ -17,15 +17,19 @@
         0,
         0
     ],
-    "_skin_": "sf235f94d6524175aaacd10d37b52693",
-    "_text_": "",
+    "_right_": {
+        "type": "string",
+        "value": "6.40%"
+    },
+    "_skin_": "s81b24137651468bb3c0096bf427c8b5",
+    "_text_": "64.4 %",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "50%"
     },
     "_width_": {
-        "type": "string",
-        "value": "85.06%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -35,13 +39,9 @@
         }
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblDummey",
+    "id": "lblConfidanceVal",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e5f05ba6a5fd4d54888e278ab801d049",
+    "kuid": "d295e614ce284cbf887beeeabd7fcaa7",
     "name": "kony.ui.Label",
-    "parent": "flxAppInfo",
-    "pf": "frmImageRecognitionCamera",
+    "parent": "flxResultBox",
+    "pf": "frmImageRecognition",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

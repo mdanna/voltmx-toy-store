@@ -6,10 +6,6 @@
         "type": "string",
         "value": "30%"
     },
-    "_left_": {
-        "type": "string",
-        "value": "35dp"
-    },
     "_margin_": [
         0,
         0,
@@ -25,10 +21,6 @@
     ],
     "_percent_": true,
     "_skin_": "s02e7949704441acba6e98f1b1e41c57",
-    "_top_": {
-        "type": "string",
-        "value": "200dp"
-    },
     "_width_": {
         "type": "string",
         "value": "80%"

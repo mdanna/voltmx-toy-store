@@ -20,7 +20,7 @@
         1,
         7
     ],
-    "_skin_": "s34003706fd941ba96877f85326fa950",
+    "_skin_": "s0eebbe3e7e446188bff44e3773a85c2",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -41,19 +41,17 @@
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "frmImageRecognitionCameraController"
+            "name": "frmImageRecognitionController"
         }
     },
     "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone11",
+    "device": "iPhone11ProMax",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "frmImageRecognitionCamera",
-    "ide_init": "AS_Form_a5ef769a369341bc8abe3de579ed73d7",
-    "ide_postShow": "AS_Form_ec8331c27f7e4837988842ee82c2f377",
+    "id": "frmImageRecognition",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -105,7 +103,7 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "iphone",
-    "prevDevice": "iPhone8",
+    "prevDevice": "Pixel3",
     "prevPlatform": "android",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

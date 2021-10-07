@@ -1,6 +1,10 @@
 {
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "50%"
+    },
     "_height_": {
         "type": "ref",
         "value": "preferred"
@@ -13,19 +17,19 @@
     ],
     "_padding_": [
         0,
-        1,
         0,
-        1
+        0,
+        0
     ],
-    "_skin_": "sbf323bbe55a4de69073ed05c8189c43",
-    "_text_": "You can either recognize a real world object by using apllication’s camera button or, You can recognize an object present in any image present in your device",
-    "_top_": {
+    "_right_": {
         "type": "string",
-        "value": "10dp"
+        "value": "6.40%"
     },
+    "_skin_": "s7ab8c87d540489eb3f25b043b981fdd",
+    "_text_": "CONFIDENCE",
     "_width_": {
-        "type": "string",
-        "value": "85.06%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -35,13 +39,9 @@
         }
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblAppDesc",
+    "id": "lblConfidance",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,11 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b742cf6ae26241a68996fe6d176bafa6",
+    "kuid": "f3937c76024a4c968ee030fa66ebee06",
     "name": "kony.ui.Label",
-    "paddinginpixel": false,
-    "parent": "flxAppInfo",
-    "pf": "frmImageRecognitionCamera",
+    "parent": "flxResultBox",
+    "pf": "frmImageRecognition",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

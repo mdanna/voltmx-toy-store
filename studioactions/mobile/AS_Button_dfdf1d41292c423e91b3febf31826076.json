@@ -7,7 +7,7 @@
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "frmImageRecognitionCamera",
+            "name": "frmImageRecognition",
             "type": "forms",
             "platform": "",
             "KUID": "a51e40fdfbda4f57ab0d20a1ede52a59"

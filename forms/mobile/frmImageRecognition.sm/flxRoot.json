@@ -1,12 +1,12 @@
 {
     "DNDConfig": null,
-    "_bottom_": {
-        "type": "string",
-        "value": "0.00%"
-    },
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "33dp"
     },
     "_margin_": [
         0,
@@ -22,36 +22,44 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd43a75ac89048a9894f59f70a05222e",
+    "_skin_": "s02e7949704441acba6e98f1b1e41c57",
+    "_top_": {
+        "type": "string",
+        "value": "229dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "89.33%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50.00%"
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
     },
     "children": [
-        "lblObject",
-        "lblConfidance",
-        "lblObjectType",
-        "lblConfidanceVal"
+        "flxControls",
+        "RoundFloatingButton",
+        "flxCamera",
+        "flxResultBox"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxResultBox",
+    "id": "flxRoot",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g246f056c83647d4834ba2b3013d8515",
+    "kuid": "ib0e30655b9b4385a8f16a93dc18887f",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxRoot",
-    "pf": "frmImageRecognitionCamera",
+    "parent": "frmImageRecognition",
+    "pf": "frmImageRecognition",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
@@ -59,5 +67,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 8
+    "zindex": 1
 }

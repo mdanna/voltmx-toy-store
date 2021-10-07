@@ -43,7 +43,7 @@
     "masterType": 1,
     "name": "kony.ui.Button",
     "parent": "RoundFloatingButton",
-    "pf": "frmImageRecognitionCamera",
+    "pf": "frmImageRecognition",
     "wType": "Button",
     "zindex": 1
 }

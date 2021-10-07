@@ -48,7 +48,7 @@
     "masterType": 1,
     "name": "kony.ui.FlexContainer",
     "parent": "flxRoot",
-    "pf": "frmImageRecognitionCamera",
+    "pf": "frmImageRecognition",
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",

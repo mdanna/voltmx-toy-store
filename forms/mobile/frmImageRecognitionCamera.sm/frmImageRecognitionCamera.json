@@ -52,7 +52,6 @@
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmImageRecognitionCamera",
-    "ide_init": "AS_Form_a5ef769a369341bc8abe3de579ed73d7",
     "ide_postShow": "AS_Form_ec8331c27f7e4837988842ee82c2f377",
     "info": null,
     "initdone": false,

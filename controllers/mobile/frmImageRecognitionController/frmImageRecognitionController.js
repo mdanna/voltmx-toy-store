@@ -27,7 +27,7 @@ define({
 			this.view.btnRoundFloat.onClick = () => {
 				const irName = this.view.lblObjectType.text;
 				const productName = appData.getProductNameByIRName(irName);
-				if(productName !== null){
+				if(productName){
 					new kony.mvc.Navigation('frmProduct').navigate(productName);
 				} else {
 					alert('Product not found.');
@@ -40,7 +40,7 @@ define({
 		};
 	},
 	
-	onFormPostShow: function(){
+	onFormPostShow(){
 		var config = {};
 		config.modelType = kony.ml.MODEL_TYPE_QUANTIZED;
 		config.onSuccess = this.imageClassificationSuccess;
@@ -49,7 +49,7 @@ define({
 		
 		if(kony.os.deviceInfo().name.toLowerCase() === 'iphone'){
 			config["modelInputSize"] = {"width": 299 ,"height": 299};
-			config.modelPath =  "RubikCubeClassifier";
+			config.modelPath =  "pluto";//"RubikCubeClassifier";
 		} else if (kony.os.deviceInfo().name.toLowerCase() === 'android'){
 			config.modelPath =  "model";
 			config.labelPath = "label";
@@ -59,7 +59,7 @@ define({
 		this.view.mlCamera.startDetection();
 	},
 	
-	imageClassificationSuccess: function(resultArray){
+	imageClassificationSuccess(resultArray){
 		if(resultArray !== null && resultArray.length > 0){
 			// resultArray is sorted in descending order ,hence 0th item will be highest confidence
 			this.view.lblObjectType.text = resultArray[0].title; 
@@ -70,7 +70,7 @@ define({
 		}
 	},
 	
-	imageClassificationFailure: function(errorCode){
+	imageClassificationFailure(errorCode){
 		alert("errorCode: " + errorCode);
 	},
 	

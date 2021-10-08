@@ -40,30 +40,32 @@ define(function() {
 		},
 
 		selectItem(item){
-			this.view.lblMenuHome.skin = SKIN_UNSELECTED;
-			this.view.lblMenuCamera.skin = SKIN_UNSELECTED;
-			this.view.lblMenuSearch.skin = SKIN_UNSELECTED;
-			this.view.lblMenuLocation.skin = SKIN_UNSELECTED;
-			this.view.lblMenuCart.skin = SKIN_UNSELECTED;
+			if(this.view){
+				this.view.lblMenuHome.skin = SKIN_UNSELECTED;
+				this.view.lblMenuCamera.skin = SKIN_UNSELECTED;
+				this.view.lblMenuSearch.skin = SKIN_UNSELECTED;
+				this.view.lblMenuLocation.skin = SKIN_UNSELECTED;
+				this.view.lblMenuCart.skin = SKIN_UNSELECTED;
 
-			switch(item){
-				case globals.MENU_ITEM_HOME:
-					this.view.lblMenuHome.skin = SKIN_SELECTED;
-					break;
-				case globals.MENU_ITEM_CAMERA:
-					this.view.lblMenuCamera.skin = SKIN_SELECTED;
-					break;
-				case globals.MENU_ITEM_SEARCH:
-					this.view.lblMenuSearch.skin = SKIN_SELECTED;
-					break;
-				case globals.MENU_ITEM_LOCATION:
-					this.view.lblMenuLocation.skin = SKIN_SELECTED;
-					break;
-				case globals.MENU_ITEM_CART:
-					this.view.lblMenuCart.skin = SKIN_SELECTED;
-					break;
-				default:
-					break;
+				switch(item){
+					case globals.MENU_ITEM_HOME:
+						this.view.lblMenuHome.skin = SKIN_SELECTED;
+						break;
+					case globals.MENU_ITEM_CAMERA:
+						this.view.lblMenuCamera.skin = SKIN_SELECTED;
+						break;
+					case globals.MENU_ITEM_SEARCH:
+						this.view.lblMenuSearch.skin = SKIN_SELECTED;
+						break;
+					case globals.MENU_ITEM_LOCATION:
+						this.view.lblMenuLocation.skin = SKIN_SELECTED;
+						break;
+					case globals.MENU_ITEM_CART:
+						this.view.lblMenuCart.skin = SKIN_SELECTED;
+						break;
+					default:
+						break;
+				}
 			}
 		},
 

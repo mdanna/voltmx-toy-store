@@ -5,9 +5,9 @@
   "androidwearos": {
     "font_name": "default"
   },
-  "background_color": "7894b3ff",
+  "background_color": "608da0ff",
   "bg_type": "one",
-  "border_color": "7894b3ff",
+  "border_color": "608da0ff",
   "border_radius": 50,
   "border_style": "custom",
   "border_type": 0,

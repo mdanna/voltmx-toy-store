@@ -49,9 +49,9 @@ define({
 		
 		if(kony.os.deviceInfo().name.toLowerCase() === 'iphone'){
 			config["modelInputSize"] = {"width": 299 ,"height": 299};
-			config.modelPath =  "pluto";//"RubikCubeClassifier";
+			config.modelPath = "pluto";
 		} else if (kony.os.deviceInfo().name.toLowerCase() === 'android'){
-			config.modelPath =  "model";
+			config.modelPath = "model";
 			config.labelPath = "label";
 		}
 		this.imageClassifier =  new kony.ml.ImageClassifier(config);
@@ -60,8 +60,8 @@ define({
 	},
 	
 	imageClassificationSuccess(resultArray){
-		if(resultArray !== null && resultArray.length > 0){
-			// resultArray is sorted in descending order ,hence 0th item will be highest confidence
+		if(resultArray && resultArray.length > 0){
+			// resultArray is sorted in descending order, hence 0th item will be highest confidence
 			this.view.lblObjectType.text = resultArray[0].title; 
 			this.view.lblConfidanceVal.text = (resultArray[0].confidence * 100).toFixed(2) + "%";
 			if(!this.view.flxResultBox.isVisible){
@@ -72,7 +72,6 @@ define({
 	
 	imageClassificationFailure(errorCode){
 		alert("errorCode: " + errorCode);
-	},
-	
+	}
 	
 });

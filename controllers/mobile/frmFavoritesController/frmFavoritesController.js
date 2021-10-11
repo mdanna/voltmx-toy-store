@@ -21,7 +21,7 @@ define({
 				this.view.cmpSearchResults.data = products;
 			}
 		};
-	},
+	}
 	
 
 });

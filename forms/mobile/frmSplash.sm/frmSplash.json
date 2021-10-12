@@ -18,7 +18,7 @@
     "_pxMenuIndex": [
         0,
         1,
-        6
+        9
     ],
     "_skin_": "sa46532fa2c34e31b42d07a6c8e10b18",
     "_title_": null,
@@ -35,6 +35,7 @@
     },
     "canUpdateUI": true,
     "children": [
+        "imgBackground",
         "flxTop",
         "flxBottom",
         "flxConsent"
@@ -50,7 +51,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhoneXR",
+    "device": "iPhone7",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmSplash",
@@ -105,7 +106,7 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "iphone",
-    "prevDevice": "iPhone8Zoomed",
+    "prevDevice": "iPhone11ProMax",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

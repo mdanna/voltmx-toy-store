@@ -4,7 +4,7 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "30%"
+        "value": "40%"
     },
     "_margin_": [
         0,
@@ -23,7 +23,7 @@
     "_skin_": "s02e7949704441acba6e98f1b1e41c57",
     "_width_": {
         "type": "string",
-        "value": "80%"
+        "value": "90%"
     },
     "canUpdateUI": true,
     "centerx": {
@@ -32,7 +32,7 @@
     },
     "centery": {
         "type": "string",
-        "value": "40%"
+        "value": "45%"
     },
     "containerweight": 0,
     "data": {},

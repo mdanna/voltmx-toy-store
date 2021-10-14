@@ -4,7 +4,7 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "10%"
+        "value": "9%"
     },
     "_left_": {
         "type": "string",
@@ -42,7 +42,7 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d874a5259a54432fa49c3fc66956f807",
+    "kuid": "a792344b32774b01bb38bc94accea3f9",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "frmSearch",
@@ -50,7 +50,7 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "f0f0cf0726cc477fb91cb6cad8bba764",
+    "sourceUserWidget": "c1fa4e101016450dbeba6edae22ba2b1",
     "wType": "UserWidgetInstance",
     "zindex": 1
 }

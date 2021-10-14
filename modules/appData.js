@@ -38,7 +38,7 @@ const appData = {
 			isPopular: false,
 			isFavorite: true
 		},
-		'Aviator Plush Bear': {
+		'Aviator Bear': {
 			irName: 'TeddyBear',
 			subtitle: '10% off',
 			categories: ['Plush Toys'],
@@ -55,7 +55,7 @@ const appData = {
 			isPopular: false,
 			isFavorite: false
 		},
-		'Car': {
+		'Red Car': {
 			irName: 'RedCar',
 			subtitle: 'Sale',
 			categories: ['Vehicles'],
@@ -121,7 +121,7 @@ const appData = {
 			isPopular: true,
 			isFavorite: false
 		},
-		'Movie Robot Figure': {
+		'Movie Robot': {
 			irName: 'Walle',
 			subtitle: 'Lowest Price',
 			categories: ['Action Figures', 'Movies'],
@@ -188,7 +188,7 @@ const appData = {
 			isPopular: true,
 			isFavorite: false
 		},
-		'RC Dancing Robot': {
+		'Dancing Robot': {
 			irName: 'RCRobot',
 			subtitle: '',
 			categories: ['Action Figures'],
@@ -205,7 +205,7 @@ const appData = {
 			isPopular: false,
 			isFavorite: true
 		},
-		'Retro Die Cast Car': {
+		'Yellow Car': {
 			irName: 'YellowCar',
 			subtitle: '',
 			categories: ['Vehicles'],

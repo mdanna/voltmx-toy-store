@@ -1,10 +1,10 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
-    "_children_": [],
+    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -16,43 +16,45 @@
         0,
         0
     ],
-    "_orientation_": 1,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_percent_": true,
-    "_skin_": "sc3453d56e7b42618e673210867efe67",
+    "_skin_": "scd3a87ccc5b4cfc9e965fae732833e8",
+    "_src_": "homepopularretroimg.png",
     "_top_": {
         "type": "string",
-        "value": "15dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "90dp"
+        "value": "100%"
     },
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
         "value": "50%"
     },
-    "containerweight": 0,
-    "data": {},
-    "id": "ItemCounter",
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "id": "imgTeaser",
+    "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "cce90bd216b84a69b3605efb3d9ed6b8",
-    "masterType": 1,
-    "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxCartLeft",
-    "pf": "frmProduct",
+    "kuid": "i69f5e9078834a66a58f404b7e2ce706",
+    "name": "kony.ui.Image2",
+    "parent": "flxImage",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "jc68765309494e47877d2f63c820b627",
-    "wType": "UserWidgetInstance",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
     "zindex": 1
 }

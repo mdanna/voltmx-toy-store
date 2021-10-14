@@ -1,0 +1,136 @@
+{
+    "classname": "ShoppingCartItem",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c00af9b07f104911961ad1d152f56ba2",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickImage",
+                    "pw": {
+                        "displayName": "onClickImage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d17dc3543d0d4abaa26d298c627c4e21",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": 1,
+                    "group": "General",
+                    "kuid": "jfe8f2a005c7430bad40d11807ab7dd2",
+                    "originalPropertyKey": "amount",
+                    "propertyIndex": 5,
+                    "propertyKey": "amount",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "Amount",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "d17dc3543d0d4abaa26d298c627c4e21",
+                    "type": "integer",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g621334acb984497bdd771e7ad1a09e5",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 1,
+                    "propertyKey": "image",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Image",
+                        "isHiddenInTool": false,
+                        "srcWidget": "imgTeaser",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "i69f5e9078834a66a58f404b7e2ce706"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "jda0f0fe7e684a7eaa5de8a521367aa4",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "title",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Title",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d659a52786fc42c381c53a513d8ad77a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a4d636dbaa4f4d94b6e993404f621a50",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "price",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Price",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblPrice",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "g355c5ed24c2420aa7eaad6758c1e2e0"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.toystore",
+    "version": "1.0.0"
+}

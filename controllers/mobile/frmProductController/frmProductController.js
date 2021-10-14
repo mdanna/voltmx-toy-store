@@ -24,6 +24,10 @@ define({
 					this.view.lblMoreDetails.isVisible = true;
 				}
 			};
+			
+			this.view.flxAddToCart.onClick = () => {
+				shoppingCart.addItem(this.view.lblTitle.text, parseInt(this.view.cmpItemCounter.count));
+			};
 		};
 		
 		this.view.preShow = () => {

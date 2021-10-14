@@ -4,7 +4,7 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "10%"
+        "value": "9%"
     },
     "_left_": {
         "type": "string",
@@ -42,7 +42,7 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d714ca380fd04232bc8efb0b74129997",
+    "kuid": "f62f6091a07b4d34b26ab7a1f0fe8f20",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "frmFavorites",
@@ -50,7 +50,7 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "f0f0cf0726cc477fb91cb6cad8bba764",
+    "sourceUserWidget": "c1fa4e101016450dbeba6edae22ba2b1",
     "wType": "UserWidgetInstance",
     "zindex": 1
 }

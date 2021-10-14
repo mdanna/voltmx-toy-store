@@ -1,0 +1,95 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_right_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_skin_": "s407d226de8c417abcb4c3ae552b6540",
+    "_width_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "listboxarw.png",
+    "focusskin": "s407d226de8c417abcb4c3ae552b6540",
+    "groupcells": false,
+    "id": "lstNumItems",
+    "info": null,
+    "inputAccessoryViewType": 1,
+    "iphone": {
+        "psp": {
+            "inputAccessoryViewType": 1
+        },
+        "viewType": 0
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ca999172f56342cc830d47fab6e919c4",
+    "masterdata": [
+        [
+            "lb1",
+            "1"
+        ],
+        [
+            "lb2",
+            "2"
+        ],
+        [
+            "lb3",
+            "3"
+        ],
+        [
+            "lb4",
+            "4"
+        ],
+        [
+            "lb5",
+            "5"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "ShoppingCartItem",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "lb1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "lb1",
+        "1"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

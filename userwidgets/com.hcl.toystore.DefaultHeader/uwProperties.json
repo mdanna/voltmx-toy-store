@@ -21,7 +21,7 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "a2fdd5688e344cae853436bb9390fef3",
+                    "kuid": "h14b578675df47ca9c7d2268c7624477",
                     "originalPropertyKey": "text",
                     "propertyIndex": 1,
                     "propertyKey": "title",
@@ -37,7 +37,7 @@
                         "uiRepresentation": "Label-Textbox",
                         "wType": "Label"
                     },
-                    "srcWgtKUID": "i37cd8517df44227a1fd7436ecc0c6ff"
+                    "srcWgtKUID": "a2d864e50ef84c45a9e3fafcdd8796dd"
                 }
             ]
         },

@@ -37,10 +37,7 @@ define({
 			};
 			
 			mEventManager.subscribe(globals.ON_CLICK_COUNTER, ({product, amount}) => {
-				const item = shoppingCart.items[product];
-				//const oldPrice = item.amount * item.price;
-				//const newPrice = amount * item.price;
-				item.amount = amount;
+				shoppingCart.items[product].amount = amount;
 				const {amount: totalAmount, total} = shoppingCart.getTotals();
 				this.view.lblTotal.text = `Total (${totalAmount} article${totalAmount === 1 ? '' : 's'})`;
 				this.view.lblPrice.text = '$' + total.toFixed(2);

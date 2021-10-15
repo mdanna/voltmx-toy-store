@@ -1,6 +1,6 @@
 {
-  "background_image": "scantoyphoto.png",
-  "bg_type": "image",
+  "background_color": "000000ff",
+  "bg_type": "one",
   "border_color": "ffffffff",
   "isDefaultSkin": false,
   "kuid": "s0eebbe3e7e446188bff44e3773a85c2",

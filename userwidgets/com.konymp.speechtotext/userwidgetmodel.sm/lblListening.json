@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_skin_": "sf235f94d6524175aaacd10d37b52693",
+    "_skin_": "sdf8aa52072e4875b415a722300a4dc4",
     "_text_": "Listening...",
     "_top_": {
         "type": "string",
@@ -66,6 +66,7 @@
     "name": "kony.ui.Label",
     "parent": "flxAnim",
     "pf": "userwidgetmodel",
+    "textstyle": {},
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

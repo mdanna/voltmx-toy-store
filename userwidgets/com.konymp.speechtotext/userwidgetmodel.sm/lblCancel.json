@@ -3,11 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "30dp"
     },
     "_margin_": [
         1,
@@ -21,11 +21,11 @@
         0,
         0
     ],
-    "_skin_": "s1d4b12220a240dbaa008702418be367",
-    "_text_": "Books",
+    "_skin_": "sd350fa4991f495599bd6ec55adff30c",
+    "_text_": "f",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "19dp"
     },
     "_width_": {
         "type": "string",
@@ -39,9 +39,17 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "lblKeyword6",
+    "id": "lblCancel",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +63,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ca99f8c3a64142f782bd76d1bdbcc1ea",
+    "kuid": "aeadf7aa65994ac48a294e8de5035bc6",
     "name": "kony.ui.Label",
-    "parent": "flxCategories",
-    "pf": "frmSearch",
+    "parent": "flxCancel",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

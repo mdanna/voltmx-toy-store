@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "85%"
+        "value": "80%"
     },
     "_margin_": [
         0,
@@ -23,16 +23,16 @@
         0
     ],
     "_skin_": "s4e5fc3d0ce24d8e8d375b8b971ec799",
-    "_src_": "konymp_stt_imggif_1.gif",
-    "_top_": {
-        "type": "string",
-        "value": "10%"
-    },
+    "_src_": "sound.gif",
     "_width_": {
         "type": "string",
         "value": "12%"
     },
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "id": "imgGif",
     "imagescalemode": 1,

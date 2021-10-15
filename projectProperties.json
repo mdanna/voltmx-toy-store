@@ -93,7 +93,7 @@
     "appiniteventkey": "None",
     "applepushfunc": "None",
     "apploadeventkey": "None",
-    "applogokey": "",
+    "applogokey": "0=showcaselogomarkimg.png",
     "appmenu": {
         "desktop": {
             "data": [

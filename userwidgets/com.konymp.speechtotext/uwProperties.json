@@ -279,33 +279,6 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "gc18e6db16444a19a177404df261fd06",
-                    "originalPropertyKey": "src",
-                    "propertyIndex": 2,
-                    "propertyKey": "cancelImage",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "widget",
-                        "displayName": "Cancel image",
-                        "srcWidget": "imgCancel",
-                        "type": "string",
-                        "uiConfig": {
-                            "Button": {
-                                "dataRetrieverId": "Imagelist",
-                                "dataUpdaterId": "Imagelist",
-                                "popupId": "Imagelist",
-                                "type": "ImageEditBtn"
-                            },
-                            "Label": {}
-                        },
-                        "uiRepresentation": "Label-Label-Button",
-                        "wType": "Image"
-                    },
-                    "srcWgtKUID": "b89db863e69e4bf99c05557fd449a22a"
-                },
-                {
-                    "access": "Enable",
-                    "group": "General",
                     "kuid": "i52c90d830aa4837ac3186abf59ea71d",
                     "originalPropertyKey": "src",
                     "propertyIndex": 3,
@@ -397,24 +370,6 @@
                         "wType": "Image"
                     },
                     "srcWgtKUID": "f07b5556d8b049a88a84278ef2258205"
-                },
-                {
-                    "access": "Enable",
-                    "group": "General",
-                    "kuid": "d4702778b5bc4fea985c58d5738f5c40",
-                    "originalPropertyKey": "imageScaleMode",
-                    "propertyIndex": 8,
-                    "propertyKey": "imageScaleMode1",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "widget",
-                        "displayName": "Cancel Image Scale Mode",
-                        "srcWidget": "imgCancel",
-                        "type": "enum",
-                        "uiRepresentation": "Label-Combobox",
-                        "wType": "Image"
-                    },
-                    "srcWgtKUID": "b89db863e69e4bf99c05557fd449a22a"
                 },
                 {
                     "access": "Enable",

@@ -76,7 +76,8 @@ define({
 		appData.categories.forEach((category, index) => {
 			const label = new kony.ui.Label({
 				id: `lblCategory${index}`,
-				width: '100%',
+				width: 'preferred',
+				centerX: '50%',
 				height: '30dp',
 				contentAlignment: constants.CONTENT_ALIGN_CENTER
 			}, {}, {});

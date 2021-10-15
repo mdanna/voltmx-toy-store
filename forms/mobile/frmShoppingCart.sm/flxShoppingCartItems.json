@@ -54,7 +54,7 @@
     "layouttype": 4,
     "name": "kony.ui.FlexScrollContainer",
     "pagingenabled": false,
-    "parent": "flxShoppingCart",
+    "parent": "flxStep1",
     "pf": "frmShoppingCart",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

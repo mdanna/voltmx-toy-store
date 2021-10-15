@@ -38,7 +38,7 @@
         "flxRemove",
         "flxImage",
         "flxRight",
-        "lstNumItems"
+        "cmpItemCounter"
     ],
     "clipbounds": true,
     "containerweight": 100,

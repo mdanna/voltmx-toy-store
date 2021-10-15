@@ -6,5 +6,7 @@ const globals = {
 	MENU_ITEM_CART: 'cart',
 	ON_CLICK_KEYWORD: 'onClickKeyword',
 	ON_CLEAR_KEYWORD: 'onClearKeyword',
-	ON_LIKE_CHANGED: 'onLikeChanged'
+	ON_LIKE_CHANGED: 'onLikeChanged',
+	ON_CLICK_COUNTER: 'onClickCounter',
+	ON_CLICK_REMOVE_ITEM: 'onClickRemoveItem'
 };

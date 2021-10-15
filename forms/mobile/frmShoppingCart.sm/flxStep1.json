@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "1dp"
+        "value": "73%"
     },
     "_left_": {
         "type": "string",
-        "value": "8%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -22,30 +22,36 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd1229500f174224ab2d8f199de870ba",
+    "_skin_": "s02e7949704441acba6e98f1b1e41c57",
     "_top_": {
         "type": "string",
-        "value": "40dp"
+        "value": "7%"
     },
     "_width_": {
         "type": "string",
-        "value": "84%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "flxSeparatorGrey1",
+        "flxEmptyCart",
+        "flxShoppingCartItems",
+        "flxSeparatorGrey2",
+        "flxTotal"
+    ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxSeparatorGrey1",
+    "id": "flxStep1",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
-    "kuid": "d90413a6cad3458d8b2547343e8bf0a7",
-    "layouttype": 2,
+    "isvisible": false,
+    "kuid": "e1d755687fc64ca6b28df78d0a4da397",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxStep1",
+    "parent": "frmShoppingCart",
     "pf": "frmShoppingCart",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -53,6 +59,5 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

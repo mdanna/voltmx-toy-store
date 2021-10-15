@@ -45,7 +45,7 @@
     "kuid": "ad69d34571914c5ea0098a20c5758400",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxShoppingCart",
+    "parent": "flxStep1",
     "pf": "frmShoppingCart",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

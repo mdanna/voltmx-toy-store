@@ -378,7 +378,7 @@
     "isA11yConfigEnabled": false,
     "isDpScaleFactor": true,
     "isEASAppUpgradable": false,
-    "isI18nConfigEnabled": false,
+    "isI18nConfigEnabled": true,
     "isI18nLayoutConfigEnabled": false,
     "isMVC": true,
     "isNewAppWithRespectToAndroidPackageName": "true",

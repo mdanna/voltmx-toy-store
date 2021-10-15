@@ -34,7 +34,7 @@ define(function() {
 
 			let currRow = null;
 
-			this.view.lblNumber.text = products.length;
+			this.view.lblNumber.text = products.length.toFixed(0);
 			this.view.lblResults.text = products.length === 1 ? 'Result' : 'Results';
 
 			products.forEach((product, index) => {

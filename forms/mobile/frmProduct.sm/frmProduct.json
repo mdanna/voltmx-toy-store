@@ -36,7 +36,8 @@
     "canUpdateUI": true,
     "children": [
         "flxMain",
-        "cmpFooterMenu"
+        "cmpFooterMenu",
+        "cmpToast"
     ],
     "containerweight": 100,
     "controllerInfo": {

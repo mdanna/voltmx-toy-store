@@ -14,19 +14,21 @@ const shoppingCart = {
 				amount
 			};
 		}
-		shoppingCart.items[name].price = shoppingCart.getItemPrice(name) * shoppingCart.items[name].amount;
+		shoppingCart.items[name].price = shoppingCart.getItemPrice(name);
 	},
 	
 	removeItem:(name) => {
-		shoppingCart.items.remove(name);
+		delete shoppingCart.items[name];
+		shoppingCart.items = shoppingCart.items || {};
 	},
 	
 	getTotals: () => {
 		let total = 0;
 		let amount = 0;
 		for(let key in shoppingCart.items){
-			total += (shoppingCart.items[key].price * amount);
-			amount += shoppingCart.items[key].amount;
+			const item = shoppingCart.items[key];
+			total += (item.price * item.amount);
+			amount += item.amount;
 		}
 		return {
 			total,

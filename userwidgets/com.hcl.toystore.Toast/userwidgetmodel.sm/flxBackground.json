@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "1dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "8%"
+        "value": "3dp"
     },
     "_margin_": [
         0,
@@ -22,14 +22,14 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd1229500f174224ab2d8f199de870ba",
+    "_skin_": "s8d75927cdec4322816602c4df4cdcd3",
     "_top_": {
         "type": "string",
-        "value": "40dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "84%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -38,15 +38,16 @@
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxSeparatorGrey1",
+    "id": "flxBackground",
     "info": null,
     "iscustomlayout": false,
+    "ismodalcontainer": true,
     "isvisible": true,
-    "kuid": "d90413a6cad3458d8b2547343e8bf0a7",
+    "kuid": "i817c1bebeb2455a9f8a51e5c0d45b5d",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxStep1",
-    "pf": "frmShoppingCart",
+    "parent": "Toast",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

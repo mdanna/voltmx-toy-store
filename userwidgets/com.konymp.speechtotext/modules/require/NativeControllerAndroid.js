@@ -2,7 +2,7 @@ define(['./Inherits', './NativeController'], function(Inherits, NativeController
 	var konyLoggerModule = require('com/konymp/speechtotext/konyLogger');
 	var konymp = konymp || {};
 	konymp.logger = (new konyLoggerModule("Speech To Text  Component")) || function() {};
-	konymp.logger.setLogLevel("DEBUG");
+	konymp.logger.setLogLevel("TRACE");
 	konymp.logger.enableServerLogging = true;
 
 	var NativeControllerAndroid = function(componentInstance) {
@@ -26,10 +26,12 @@ define(['./Inherits', './NativeController'], function(Inherits, NativeController
 			this.recognizerIntent = java.import("android.speech.RecognizerIntent");
 			this.speechRecognizer = java.import("android.speech.SpeechRecognizer");
 			this.Intent = java.import("android.content.Intent");
-			this.contextCompat = java.import("android.support.v4.content.ContextCompat");
+			//this.contextCompat = java.import("android.support.v4.content.ContextCompat");
+			this.contextCompat = java.import("androidx.core.content.ContextCompat");
 			this.manifest = java.import("android.Manifest");
 			this.packageManager = java.import("android.content.pm.PackageManager");
-			this.activityCompact = java.import("android.support.v4.app.ActivityCompat");
+			//this.activityCompact = java.import("android.support.v4.app.ActivityCompat");
+			this.activityCompat = java.import("androidx.core.app.ActivityCompat");
 			this.mLocale = this.Locale.getDefault();
 			this.mContext = this.KonyMain.getActivityContext();
 			this.recognitionListener = java.newClass('recognitionListener', 'java.lang.Object', ['android.speech.RecognitionListener'], {
@@ -60,7 +62,6 @@ define(['./Inherits', './NativeController'], function(Inherits, NativeController
 		try {
 			konymp.logger.trace("----------Entering speechToText Function---------", konymp.logger.FUNCTION_ENTRY);
 			if (this.requestPermission()) {
-				kony.application.showLoadingScreen();
 				this.mSpeechRecognizer = null;
 				kony.runOnMainThread(this.startListening.bind(this), []);
 			} else {
@@ -72,7 +73,6 @@ define(['./Inherits', './NativeController'], function(Inherits, NativeController
 			}
 			konymp.logger.trace("----------Exiting speechToText Function---------", konymp.logger.FUNCTION_EXIT);
 		} catch (exception) {
-			kony.application.dismissLoadingScreen();
 			konymp.logger.error(JSON.stringify(exception), konymp.logger.EXCEPTION);
 			if(exception.type === "CUSTOM"){
 				throw exception;
@@ -168,7 +168,6 @@ define(['./Inherits', './NativeController'], function(Inherits, NativeController
 	NativeControllerAndroid.prototype.onReadyForSpeechAndroid = function(bundle) {
 		try {
 			konymp.logger.trace("----------entering onReadyForSpeechAndroid Function---------", konymp.logger.FUNCTION_ENTRY);
-			kony.application.dismissLoadingScreen();
 			this.componentInstance.view.flxMicrophone.isVisible = false;
 			this.componentInstance.view.flxAnim.isVisible = true;
 			if (this.componentInstance.onReadyForSpeech !== undefined && this.componentInstance.onReadyForSpeech !== null && typeof this.componentInstance.onReadyForSpeech === 'function') {

@@ -10,7 +10,6 @@
         "actions": [{
             "id": "NAVIGATE_TO_FORM__ide_onClick_ie5d12d90a67477aaeecc69c1770bf8d",
             "type": "NAVIGATE_TO_FORM",
-            "formId": "frmCart",
             "formKUID": "acfed18f758b4ca9aa824f76576c6ddf",
             "mappings": {},
             "mappingsOrder": [],

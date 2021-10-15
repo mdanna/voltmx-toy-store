@@ -42,6 +42,7 @@ define({
 				const newPrice = amount * item.price;
 				const {total} = shoppingCart.getTotals();
 				item.amount = amount;
+				this.view.lblTotal.text = `Total (${amount} article${amount === 1 ? '' : 's'})`;
 				this.view.lblPrice.text = '$' + (total + newPrice - oldPrice).toFixed(2);
 			});
 			

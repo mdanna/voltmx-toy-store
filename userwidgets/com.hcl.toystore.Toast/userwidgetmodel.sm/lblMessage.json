@@ -5,6 +5,10 @@
         "type": "string",
         "value": "100%"
     },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
     "_margin_": [
         1,
         1,
@@ -12,13 +16,17 @@
         1
     ],
     "_padding_": [
-        5,
-        10,
-        5,
-        10
+        0,
+        0,
+        0,
+        0
     ],
     "_skin_": "s66f60216c724721a6c5cb06ec4a0a85",
     "_text_": "Message",
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -31,14 +39,6 @@
         }
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "contentalignment": 5,
     "id": "lblMessage",
@@ -64,5 +64,5 @@
     "textstyle": {},
     "tooltip": "",
     "wType": "Label",
-    "zindex": 1
+    "zindex": 2
 }

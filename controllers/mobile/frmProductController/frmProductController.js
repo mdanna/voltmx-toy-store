@@ -30,10 +30,10 @@ define({
 				shoppingCart.addItem(this.view.lblTitle.text, numItems);
 
 				if(!this.view.cmpToast){
-					const toast = new com.konymp.mario.Toast({
+					const toast = new com.hcl.toystore.Toast({
 						id: 'cmpToast'
 					}, {}, {});
-					toast.toastDuration = 3;
+					toast.toastDuration = 2;
 					this.view.addAt(toast, 0);
 				}
 				this.view.cmpToast.toastMessage = `${numItems} Item${numItems === 1 ? '' : 's'} added to the Cart.`;

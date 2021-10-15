@@ -38,12 +38,12 @@ define({
 			
 			mEventManager.subscribe(globals.ON_CLICK_COUNTER, ({product, amount}) => {
 				const item = shoppingCart.items[product];
-				const oldPrice = item.amount * item.price;
-				const newPrice = amount * item.price;
-				const {total} = shoppingCart.getTotals();
+				//const oldPrice = item.amount * item.price;
+				//const newPrice = amount * item.price;
 				item.amount = amount;
-				this.view.lblTotal.text = `Total (${amount} article${amount === 1 ? '' : 's'})`;
-				this.view.lblPrice.text = '$' + (total + newPrice - oldPrice).toFixed(2);
+				const {amount: totalAmount, total} = shoppingCart.getTotals();
+				this.view.lblTotal.text = `Total (${totalAmount} article${totalAmount === 1 ? '' : 's'})`;
+				this.view.lblPrice.text = '$' + total.toFixed(2);
 			});
 			
 			mEventManager.subscribe(globals.ON_CLICK_REMOVE_ITEM, (product) => {

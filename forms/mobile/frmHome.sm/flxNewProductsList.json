@@ -38,7 +38,6 @@
     "canUpdateUI": true,
     "children": [
         "cmpNewProduct1",
-        "cmpNewProduct2",
         "cmpNewProduct3"
     ],
     "clipbounds": true,

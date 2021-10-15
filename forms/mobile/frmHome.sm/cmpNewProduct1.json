@@ -35,7 +35,9 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "data": {},
+    "data": {
+        "title": "Dancing Robot"
+    },
     "id": "cmpNewProduct1",
     "info": null,
     "iscustomlayout": false,

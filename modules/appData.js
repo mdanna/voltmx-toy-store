@@ -277,7 +277,7 @@ const appData = {
 	
 	getProductNameByIRName(irName){
 		for(let key in appData.products){
-			if(appData.products[key].irName === irName){
+            if((appData.products[key].irName !== undefined) && (appData.products[key].irName !== null) && (appData.products[key].irName.toLowerCase() === irName.toLowerCase())){
 				return key;
 			}
 		}

@@ -262,6 +262,7 @@ define(['./Inherits', './NativeController'], function(Inherits, NativeController
 	NativeControllerAndroid.prototype.onErrorAndroid = function(code) {
 		try {
 			konymp.logger.trace("----------entering onErrorAndroid Function---------", konymp.logger.FUNCTION_ENTRY);
+			konymp.logger.error('onErrorAndroid: '+ code, konymp.logger.ERROR_CALLBACK);
 			if (this.componentInstance.onError !== undefined && this.componentInstance.onError !== null && typeof this.componentInstance.onError === 'function') {
 				this.componentInstance.onError(code);
 			}

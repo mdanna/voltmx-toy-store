@@ -15,11 +15,11 @@ function permissionStatusCallback(response) {
     /* iterating through permissionSet key value pair from response jsObject where 'i' is permission key and result is permission status */
     var result = response[i];
 
-    if (result == kony.application.PERMISSION_DENIED) {
+    if (result === kony.application.PERMISSION_DENIED) {
 
       // show message  and raise request again
 
-    } else if (result == kony.application.PERMISSION_NEVER_ASK_AGAIN) {
+    } else if (result === kony.application.PERMISSION_NEVER_ASK_AGAIN) {
 
       // show message and open settings page
 

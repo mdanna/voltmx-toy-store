@@ -18,7 +18,7 @@
     "_pxMenuIndex": [
         0,
         1,
-        9
+        8
     ],
     "_skin_": "sa46532fa2c34e31b42d07a6c8e10b18",
     "_title_": null,
@@ -51,7 +51,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone7",
+    "device": "iPhone11",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "id": "frmSplash",
@@ -106,7 +106,7 @@
     "needappmenu": false,
     "paddinginpixel": false,
     "platform": "iphone",
-    "prevDevice": "iPhone11ProMax",
+    "prevDevice": "iPhoneXS",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

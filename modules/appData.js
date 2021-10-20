@@ -2,7 +2,7 @@ const appData = {
 	categories: [
 		'Action Figures', 'Movies', 'Educational', 'Vehicles', 'Plush Toys', 'Building Tools', 'Cartoons'
 	],
-	
+
 	products: {
 		'Race Car Blocks': {
 			subtitle: 'New In',
@@ -274,16 +274,18 @@ const appData = {
 			isFavorite: false
 		}
 	},
-	
+
 	getProductNameByIRName(irName){
-		for(let key in appData.products){
-            if((appData.products[key].irName !== undefined) && (appData.products[key].irName !== null) && (appData.products[key].irName.toLowerCase() === irName.toLowerCase())){
-				return key;
+		if(irName){
+			for(let key in appData.products){
+				if(appData.products[key].irName && (appData.products[key].irName.toLowerCase() === irName.toLowerCase())){
+					return key;
+				}
 			}
 		}
 		return null;
 	},
-	
+
 	getHomeHeroProduct() {
 		let homeHeroProduct = null;
 		for(let key in appData.products){
@@ -293,7 +295,7 @@ const appData = {
 		}
 		return homeHeroProduct;
 	},
-	
+
 	getNewProducts(maxNum) {
 		let newProducts = [];
 		let count = 0;
@@ -308,7 +310,7 @@ const appData = {
 		}
 		return newProducts;
 	},
-	
+
 	getPopularProducts() {
 		let popularProducts = [];
 		for(let key in appData.products){
@@ -318,7 +320,7 @@ const appData = {
 		}
 		return popularProducts;
 	},
-	
+
 	getFavorites(maxNum) {
 		let favoriteProducts = [];
 		let count = 0;
@@ -333,7 +335,7 @@ const appData = {
 		}
 		return favoriteProducts;
 	},
-	
+
 	getProductsByCategory(category) {
 		let ret = [];
 		for(let key in appData.products){
@@ -343,7 +345,7 @@ const appData = {
 		}
 		return ret;
 	},
-	
+
 	search(text) {
 		let ret = [];
 		text = (text || '').trim().toLowerCase();
@@ -359,7 +361,7 @@ const appData = {
 		}
 		return ret;
 	},
-	
+
 	//returns a list with one random product
 	randomSearch(){
 		const keys = Object.keys(appData.products);

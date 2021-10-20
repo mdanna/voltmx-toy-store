@@ -1,6 +1,6 @@
 {
   "android": {
-    "font_name": "default",
+    "font_name": "OpenSans-Light",
     "font_size": 100,
     "isForked": false
   },
@@ -32,7 +32,7 @@
     "isForked": false
   },
   "iphone": {
-    "font_name": "HelveticaNeue-Light",
+    "font_name": "OpenSans-Light",
     "font_size": 100,
     "isForked": false
   },
@@ -44,7 +44,7 @@
   },
   "kuid": "s1d4b12220a240dbaa008702418be367",
   "spaan": {
-    "font_name": "Helvetica",
+    "font_name": "OpenSans-Light",
     "font_size": 100,
     "isForked": false
   },
@@ -54,7 +54,7 @@
     "isForked": false
   },
   "spaip": {
-    "font_name": "Helvetica",
+    "font_name": "OpenSans-Light",
     "font_size": 100,
     "isForked": false
   },

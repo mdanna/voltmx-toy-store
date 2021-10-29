@@ -51,7 +51,7 @@
     "access_pimdomain_messages": "false",
     "access_shared": "false",
     "access_sms_mms": "false",
-    "accountCloudGuid": "972fc9b2-a845-4488-988a-a4338399ba3b",
+    "accountCloudGuid": "ff4227b6-1c22-475f-8142-ffcb5c1fae13",
     "addWatchBackgroundListenerToReceiveDataPayload": "false",
     "addWatchBackgroundListenerToReceiveMessagePayload": "false",
     "allJoyn": "false",
@@ -262,7 +262,7 @@
     "cancelicon": "",
     "category": "app",
     "chat": "false",
-    "cloud_account_guid": "972fc9b2-a845-4488-988a-a4338399ba3b",
+    "cloud_account_guid": "ff4227b6-1c22-475f-8142-ffcb5c1fae13",
     "cloud_env_GUID": "cd4fc154-2d86-4e18-aade-cccfe342cc31",
     "codeGeneration": "false",
     "contacts": "false",
@@ -396,6 +396,12 @@
             "appName": "ToyStore",
             "baseId": "7e4835c4-c9a0-42c0-a333-46b1b605c564",
             "id": "7e4835c4-c9a0-42c0-a333-46b1b605c564",
+            "version": "1.0"
+        },
+        "ff4227b6-1c22-475f-8142-ffcb5c1fae13": {
+            "appName": "ToyStore",
+            "baseId": "f5936f54-3736-4d90-b9e8-60805f7e2afc",
+            "id": "f5936f54-3736-4d90-b9e8-60805f7e2afc",
             "version": "1.0"
         }
     },
@@ -669,8 +675,8 @@
     "previewshowpassword": "false",
     "privateNetworkClientServer": "false",
     "project.type": "js",
-    "projectCloudGuid": "65e4385f-a52e-4ef8-9e1d-83720a248697",
-    "projectResourceCloudGuid": "34df4a8a-9f56-4e26-8574-9033ca8f0d3a",
+    "projectCloudGuid": "1cacb7f7-f876-4656-bea5-8cb72f0f352e",
+    "projectResourceCloudGuid": "27d3891b-176e-4544-a938-9ec8ae7fdeb0",
     "project_version": "sprint39",
     "protectedModePrivateKey": "",
     "protectedModePublicKey": "",
